@@ -7,7 +7,7 @@
         },
         "equipment": {
             "offhand": {
-                "nbt":"{luatea:tp_overword}"
+                "nbt":"{luatea_tp_overworld:1}"
             }
         }
     }

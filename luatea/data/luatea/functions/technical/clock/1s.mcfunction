@@ -7,6 +7,7 @@ execute as @a if score @s playe_time matches ..120050 run scoreboard players add
 execute as @a if score @s playe_time matches 120000.. run advancement grant @s only luatea:story/passing_the_time
 function luatea:tp_clock_overworld/make_test
 function luatea:tp_clock_the_end/make_test
+function luatea:tp_root/check
 
 
 
