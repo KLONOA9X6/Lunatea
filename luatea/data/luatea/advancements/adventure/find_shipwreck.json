@@ -1,0 +1,37 @@
+{
+    "parent": "luatea:adventure/find_monument",
+    "display": {
+      "icon": {
+        "item": "minecraft:spruce_boat"
+      },
+      "title": {
+        "translate": "啊嘿！"
+      },
+      "description": {
+        "translate": "到访一艘沉船"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "shipwreck": {
+        "trigger": "minecraft:location",
+        "conditions": {
+        "player":[{
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "structure": "shipwreck"
+          }
+        }}]}
+      }
+    },
+    "requirements": [
+      [
+        "shipwreck"
+      ]
+    ]
+  }

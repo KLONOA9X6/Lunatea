@@ -1,0 +1,336 @@
+{
+    "parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
+    "display": {
+      "icon": {
+        "item": "minecraft:leather_boots",
+        "nbt": "{Damage:0,Enchantments:[{id:'minecraft:frost_walker',lvl:2}]}"
+      },
+      "title": {
+        "translate": "冰雪奇缘！"
+      },
+      "description": {
+        "translate": "使用冰霜行者靴行走在浮冰上"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "walk_on_frosted_ice11":{
+            "trigger": "minecraft:location",
+            "conditions":{
+                "player": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "predicate": {
+                        "stepping_on": {
+                          "block": {
+                            "blocks": [
+                              "minecraft:frosted_ice"
+                            ]
+                          }
+                        },
+                        "equipment": {
+                          "feet": {
+                            "items": ["minecraft:leather_boots"],
+                            "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":1}]
+                          }
+                        }
+                      },
+                      "entity": "this"
+                    }
+                  ]
+                }
+            },
+            "walk_on_frosted_ice12":{
+                "trigger": "minecraft:location",
+                "conditions":{
+                    "player": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "predicate": {
+                            "stepping_on": {
+                              "block": {
+                                "blocks": [
+                                  "minecraft:frosted_ice"
+                                ]
+                              }
+                            },
+                            "equipment": {
+                              "feet": {
+                                "items": ["minecraft:leather_boots"],
+                                "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":2}]
+                              }
+                            }
+                          },
+                          "entity": "this"
+                        }
+                      ]
+                    }
+                },
+                "walk_on_frosted_ice21":{
+                  "trigger": "minecraft:location",
+                  "conditions":{
+                      "player": [
+                          {
+                            "condition": "minecraft:entity_properties",
+                            "predicate": {
+                              "stepping_on": {
+                                "block": {
+                                  "blocks": [
+                                    "minecraft:frosted_ice"
+                                  ]
+                                }
+                              },
+                              "equipment": {
+                                "feet": {
+                                  "items": ["minecraft:chainmail_boots"],
+                                  "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":1}]
+                                }
+                              }
+                            },
+                            "entity": "this"
+                          }
+                        ]
+                      }
+                  },
+                  "walk_on_frosted_ice22":{
+                      "trigger": "minecraft:location",
+                      "conditions":{
+                          "player": [
+                              {
+                                "condition": "minecraft:entity_properties",
+                                "predicate": {
+                                  "stepping_on": {
+                                    "block": {
+                                      "blocks": [
+                                        "minecraft:frosted_ice"
+                                      ]
+                                    }
+                                  },
+                                  "equipment": {
+                                    "feet": {
+                                      "items": ["minecraft:chainmail_boots"],
+                                      "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":2}]
+                                    }
+                                  }
+                                },
+                                "entity": "this"
+                              }
+                            ]
+                          }
+                      },
+                      "walk_on_frosted_ice31":{
+                        "trigger": "minecraft:location",
+                        "conditions":{
+                            "player": [
+                                {
+                                  "condition": "minecraft:entity_properties",
+                                  "predicate": {
+                                    "stepping_on": {
+                                      "block": {
+                                        "blocks": [
+                                          "minecraft:frosted_ice"
+                                        ]
+                                      }
+                                    },
+                                    "equipment": {
+                                      "feet": {
+                                        "items": ["minecraft:iron_boots"],
+                                        "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":1}]
+                                      }
+                                    }
+                                  },
+                                  "entity": "this"
+                                }
+                              ]
+                            }
+                        },
+                        "walk_on_frosted_ice32":{
+                            "trigger": "minecraft:location",
+                            "conditions":{
+                                "player": [
+                                    {
+                                      "condition": "minecraft:entity_properties",
+                                      "predicate": {
+                                        "stepping_on": {
+                                          "block": {
+                                            "blocks": [
+                                              "minecraft:frosted_ice"
+                                            ]
+                                          }
+                                        },
+                                        "equipment": {
+                                          "feet": {
+                                            "items": ["minecraft:iron_boots"],
+                                            "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":2}]
+                                          }
+                                        }
+                                      },
+                                      "entity": "this"
+                                    }
+                                  ]
+                                }
+                            },
+                            "walk_on_frosted_ice41":{
+                              "trigger": "minecraft:location",
+                              "conditions":{"player": [
+                                      {
+                                        "condition": "minecraft:entity_properties",
+                                        "predicate": {
+                                          "stepping_on": {
+                                            "block": {
+                                              "blocks": [
+                                                "minecraft:frosted_ice"
+                                              ]
+                                            }
+                                          },
+                                          "equipment": {
+                                            "feet": {
+                                              "items": ["minecraft:diamond_boots"],
+                                              "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":1}]
+                                            }
+                                          }
+                                        },
+                                        "entity": "this"
+                                      }
+                                    ]
+                                  }
+                              },
+                              "walk_on_frosted_ice42":{
+                                  "trigger": "minecraft:location",
+                                  "conditions":{
+                                      "player": [
+                                          {
+                                            "condition": "minecraft:entity_properties",
+                                            "predicate": {
+                                              "stepping_on": {
+                                                "block": {
+                                                  "blocks": [
+                                                    "minecraft:frosted_ice"
+                                                  ]
+                                                }
+                                              },
+                                              "equipment": {
+                                                "feet": {
+                                                  "items": ["minecraft:diamond_boots"],
+                                                  "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":2}]
+                                                }
+                                              }
+                                            },
+                                            "entity": "this"
+                                          }
+                                        ]
+                                      }
+      },
+      "walk_on_frosted_ice51":{
+        "trigger": "minecraft:location",
+        "conditions":{
+            "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "stepping_on": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:frosted_ice"
+                        ]
+                      }
+                    },
+                    "equipment": {
+                      "feet": {
+                        "items": ["minecraft:golden_boots"],
+                        "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":1}]
+                      }
+                    }
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "walk_on_frosted_ice52":{
+            "trigger": "minecraft:location",
+            "conditions":{
+                "player": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "predicate": {
+                        "stepping_on": {
+                          "block": {
+                            "blocks": [
+                              "minecraft:frosted_ice"
+                            ]
+                          }
+                        },
+                        "equipment": {
+                          "feet": {
+                            "items": ["minecraft:golden_boots"],
+                            "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":2}]
+                          }
+                        }
+                      },
+                      "entity": "this"
+                    }
+                  ]
+                }
+},"walk_on_frosted_ice61":{
+  "trigger": "minecraft:location",
+  "conditions":{
+      "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:frosted_ice"
+                  ]
+                }
+              },
+              "equipment": {
+                "feet": {
+                  "items": ["minecraft:netherite_boots"],
+                  "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":1}]
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+  },
+  "walk_on_frosted_ice62":{
+      "trigger": "minecraft:location",
+      "conditions":{
+          "player": [
+              {
+                "condition": "minecraft:entity_properties",
+                "predicate": {
+                  "stepping_on": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:frosted_ice"
+                      ]
+                    }
+                  },
+                  "equipment": {
+                    "feet": {
+                      "items": ["minecraft:netherite_boots"],
+                      "enchatntments": [{"enchantment": "minecraft:frost_walker","levels":2}]
+                    }
+                  }
+                },
+                "entity": "this"
+              }
+            ]
+          }
+}
+    },
+    "requirements": [
+      [
+        "walk_on_frosted_ice11","walk_on_frosted_ice12","walk_on_frosted_ice21","walk_on_frosted_ice22","walk_on_frosted_ice31","walk_on_frosted_ice32","walk_on_frosted_ice41","walk_on_frosted_ice42","walk_on_frosted_ice51","walk_on_frosted_ice52","walk_on_frosted_ice61","walk_on_frosted_ice62"
+      ]
+    ]
+  }

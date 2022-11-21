@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:story/enchant_item",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_axe",
+      "nbt": "{Enchantments:[{id:'minecraft:sharpness',lvl:10}]}"
+    },
+    "title": " 赶 尽 杀 绝 ！ ",
+    "description": "造成一次§c13心§a的伤害"
+    ,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killer": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": {"min":26,"max":50}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killer"
+    ]
+  ]
+}

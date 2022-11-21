@@ -1,0 +1,30 @@
+{
+    "parent": "minecraft:story/mine_stone",
+    "display": {
+      "icon": {
+        "item": "minecraft:furnace"
+      },
+      "title": "“热”门话题",
+      "description": "用八块石头制作熔炉，并使用它"
+      ,
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "hot_topic": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+            "location": {
+                "block": {"blocks": ["minecraft:furnace"]}
+            }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "hot_topic"
+      ]
+    ]
+  }

@@ -1,0 +1,31 @@
+{
+    "parent": "luatea:adventure/find_monument",
+    "display": {
+      "icon": {
+        "item": "minecraft:chest"
+      },
+      "title": {
+        "translate": "掘金人！"
+      },
+      "description": {
+        "translate": "挖出一处埋藏的宝藏"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "buried_treasure": {
+        "trigger": "minecraft:player_generates_container_loot",
+        "conditions": {
+         "loot_table": "minecraft:chests/buried_treasure"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "buried_treasure"
+      ]
+    ]
+  }

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "失落的维度"
+    },
+    "description": {
+      "translate": "存在于神话中的维度"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png"
+  },
+  "criteria": {
+    "entered_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_end"
+    ]
+  ]
+}

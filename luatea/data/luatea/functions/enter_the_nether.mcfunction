@@ -1,0 +1,1 @@
+playsound luatea:nether.enter_the_nether music @s

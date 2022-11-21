@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "vomit": {
+        "trigger": "minecraft:location",
+            "conditions": {
+            "player":[{
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "effects": {"minecraft:nausea":{}}
+            }}]}
+      }
+    },
+    "rewards": {
+      "function": "luatea:server/vomit/1"
+    },
+    "requirements": [
+      [
+        "vomit"
+      ]
+    ]
+  }

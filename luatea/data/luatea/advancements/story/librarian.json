@@ -1,0 +1,37 @@
+{
+    "parent": "minecraft:story/enchant_item",
+    "display": {
+      "icon": {
+        "item": "minecraft:bookshelf"
+      },
+      "title": {
+        "translate": "图书管理员"
+      },
+      "description": {
+        "translate": "获得书架来强化你的附魔台"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "bookshelf": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:bookshelf"
+              ]
+            }
+            ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "bookshelf"
+      ]
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "parent": "luatea:sever/root",
+        "rewards": {
+          "function": 
+            "luatea:technical/ring2/shot"
+        },
+        "criteria": {
+          "ringshot":{
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+              "item":{
+                "nbt":"{luatearing2:1}"
+              }
+            }
+          },"log_spam_fixer": {
+            "trigger": "minecraft:location"
+          }
+        }
+      }

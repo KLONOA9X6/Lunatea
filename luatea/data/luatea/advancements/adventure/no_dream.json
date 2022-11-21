@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:adventure/sleep_in_bed",
+    "display": {
+        "icon": {
+            "item": "minecraft:black_bed"
+        },
+        "hidden": true,
+        "title": "不再有梦",
+        "description": "放下幻想"
+    },
+    "criteria": {
+        "damage_in_sleep":{
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "type_specific":{
+                    "type":"player",
+                    "location":{"block": {"tag": "minecraft:beds"}}
+                }
+        }
+        }
+    },
+    "requirements": [["damage_in_sleep"]]
+}

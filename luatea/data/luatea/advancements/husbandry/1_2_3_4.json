@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sea_pickle"
+        },
+        "title": "一个泡菜，两个泡菜，三个泡菜，四个",
+        "description": "在水里放置四个海泡菜",
+        "frame": "task"
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "1_2_3_4":{
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:sea_pickle",
+                "state": {"pickles":"4","waterlogged":"true"}
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "parent": "luatea:story/hot_topic",
+    "display": {
+      "icon": {
+        "item": "minecraft:grindstone"
+      },
+      "title": {
+        "translate": "驱魔师"
+      },
+      "description": {
+        "translate": "获得砂轮"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "grindstone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:grindstone"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "grindstone"
+      ]
+    ]
+  }

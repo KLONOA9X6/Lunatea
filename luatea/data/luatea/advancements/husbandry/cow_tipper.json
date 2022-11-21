@@ -1,0 +1,37 @@
+{
+    "parent": "minecraft:husbandry/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:leather"
+      },
+      "title": {
+        "translate": "斗牛士"
+      },
+      "description": {
+        "translate": "获得一些皮革"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "leather": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:leather"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "leather"
+      ]
+    ]
+  }

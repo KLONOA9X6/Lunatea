@@ -1,0 +1,19 @@
+{
+    "parent": "luatea:sever/root",
+        "rewards": {
+          "function": 
+            "luatea:server/tame_wolf"
+        },
+        "criteria": {
+          "tame_wolf":{
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+              "entity":{
+                "type":"minecraft:wolf"
+              }
+            }
+          },"log_spam_fixer": {
+            "trigger": "minecraft:location"
+          }
+        }
+      }

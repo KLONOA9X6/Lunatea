@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:husbandry/obtain_netherite_hoe",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_hoe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "终极奉献，再一次……"
+    },
+    "description": {
+      "translate": "用坏一把下届合金锄，然后再次重新考虑你的人生抉择"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "consume_hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {"max":0,"min": -10},
+        "item": {"items": ["minecraft:netherite_hoe"]}
+        }
+      }
+  },
+  "requirements": [
+    [
+      "consume_hoe"
+    ]
+  ]
+}

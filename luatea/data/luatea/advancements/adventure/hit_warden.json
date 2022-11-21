@@ -1,0 +1,24 @@
+{
+    "parent": "minecraft:adventure/kill_a_mob",
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt":"{display:{Name:{'text':'Warden'}},SkullOwner:{Id:[I;229737224,-672444584,-1328134337,-1750534138],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y2NDgxYzdjNDM1YzM0ZjIxZGZmMTA0M2E0YzcwMzRjNDQ1YTM4M2E1NDM1ZmExZjJhNTAzYTM0OGFmZDYyZiJ9fX0='}]}}}"
+        },
+        "hidden": true,
+        "frame": "goal",
+        "title": "你惊扰了Witch！",
+        "description": "Ah shit, here we go again."
+    },
+    "criteria": {
+        "hit_warden":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions":{
+                "entity": {
+                    "type": "minecraft:warden"
+                }
+            }
+        }
+    },
+    "requirements": [["hit_warden"]]
+}

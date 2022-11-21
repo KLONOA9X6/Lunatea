@@ -1,0 +1,11 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "player": {
+            "advancements":{
+                "luatea:adventure/sleep_with_fish":false
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+execute in overworld positioned 0 -54 0 if entity @p[x=0,y=-54,z=0,distance=..2] run particle minecraft:portal 0 -53.5 0 0.0 0.0 0.0 0.5 5

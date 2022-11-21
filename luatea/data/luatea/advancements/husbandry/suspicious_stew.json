@@ -1,0 +1,97 @@
+{
+    "parent": "luatea:husbandry/bread",
+    "display": {
+      "icon": {
+        "item": "minecraft:suspicious_stew"
+      },
+      "title": {
+        "translate": "老坛炖菇"
+      },
+      "description": {
+        "translate": "从哞菇上挤下可疑的蘑菇煲"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "suspicious_stew1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:mooshroom","nbt":"{EffectId:12b}"
+          }
+        }
+      },
+      "suspicious_stew2": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:mooshroom","nbt":"{EffectId:15b}"
+          }
+        }
+      },
+      "suspicious_stew3": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:mooshroom","nbt":"{EffectId:23b}"
+          }
+        }
+      },
+      "suspicious_stew4": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:mooshroom","nbt":"{EffectId:8b}"
+          }
+        }
+      },
+      "suspicious_stew5": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:mooshroom","nbt":"{EffectId:19b}"
+          }
+        }
+      },
+      "suspicious_stew6": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:mooshroom","nbt":"{EffectId:10b}"
+          }
+        }
+      },
+      "suspicious_stew7": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:mooshroom","nbt":"{EffectId:16b}"
+          }
+        }
+      },
+      "suspicious_stew8": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:mooshroom","nbt":"{EffectId:18b}"
+          }
+        }
+      },
+      "suspicious_stew9": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:mooshroom","nbt":"{EffectId:20b}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "suspicious_stew1","suspicious_stew2","suspicious_stew3","suspicious_stew4","suspicious_stew5","suspicious_stew6","suspicious_stew7","suspicious_stew8","suspicious_stew9"
+      ]
+    ]
+  }

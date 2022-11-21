@@ -1,0 +1,37 @@
+{
+    "parent": "minecraft:husbandry/plant_seed",
+    "display": {
+      "icon": {
+        "item": "minecraft:bread"
+      },
+      "title": {
+        "translate": "烤面包"
+      },
+      "description": {
+        "translate": "获得一块面包"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "bread": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:bread"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "bread"
+      ]
+    ]
+  }

@@ -1,0 +1,14 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "location": {
+            "dimension":"minecraft:overworld"
+        },
+        "equipment": {
+            "offhand": {
+                "nbt":"{luatea:tp_overword}"
+            }
+        }
+    }
+}

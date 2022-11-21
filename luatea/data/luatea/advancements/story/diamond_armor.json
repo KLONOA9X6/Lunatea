@@ -1,0 +1,53 @@
+{
+    "parent": "minecraft:story/shiny_gear",
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_chestplate",
+        "nbt": "{Damage:0,Enchantments:[{id:'minecraft:sharpness',lvl:10}]}"
+      },
+      "title": {
+        "translate": "“钻石恒永久,一套永流传”"
+      },
+      "description": {
+        "translate": "获得一整套钻石盔甲"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "diamond_armor": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:diamond_helmet"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:diamond_chestplate"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:diamond_leggings"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:diamond_boots"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "diamond_armor"
+      ]
+    ]
+  }

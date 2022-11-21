@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:husbandry/plant_seed",
+    "display": {
+      "icon": {
+        "item": "minecraft:rabbit_stew"
+      },
+      "title": {
+        "translate": "兔子季节"
+      },
+      "description": {
+        "translate": "烹饪并食用兔肉"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "cooked_rabbit":{
+          "trigger":"minecraft:consume_item",
+          "conditions": {
+              "item":{"items":["minecraft:cooked_rabbit"]}
+             }
+        },
+      "rabbit_stew":{
+          "trigger":"minecraft:consume_item",
+          "conditions": {
+              "item":{"items":["minecraft:rabbit_stew"]}
+          }
+        }
+    },
+    "requirements": [["cooked_rabbit","rabbit_stew"]]
+}

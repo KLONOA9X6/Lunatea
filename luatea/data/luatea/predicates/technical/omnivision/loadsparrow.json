@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "luatea:technical/omnivision/arrowcheck/sparrowoffhand"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "luatea:technical/omnivision/arrowcheck/sparrowowmainhand"
+      }
+    ]
+  }
+  

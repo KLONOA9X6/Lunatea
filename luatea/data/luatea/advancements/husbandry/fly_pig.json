@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "title": "当猪飞的时候",
+        "description": "骑着一头猪，并使其步入悬崖",
+        "hidden": true
+    },
+    "parent": "husbandry/ride_a_boat_with_a_goat",
+    "rewards": {"experience": 25},
+    "criteria": {
+        "fly_pig":{
+            "trigger": "minecraft:impossible"
+            }
+        }
+    }

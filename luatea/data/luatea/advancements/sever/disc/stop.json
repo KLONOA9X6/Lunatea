@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "use_disc":{
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": ["minecraft:jukebox"],
+                        "nbt":"{IsPlaying:0b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "luatea:server/music/disc/stop_all"
+    }
+}

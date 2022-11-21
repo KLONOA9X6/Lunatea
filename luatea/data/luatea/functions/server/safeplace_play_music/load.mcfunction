@@ -1,0 +1,2 @@
+scoreboard objectives add luatea_safeplacemusic_play dummy
+scoreboard objectives add luatea_safeplacemusic_play_test dummy

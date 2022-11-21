@@ -1,0 +1,98 @@
+{
+"parent": "luatea:sever/root",
+    "rewards": {
+      "function": 
+        "luatea:technical/omnivision/keepinventory"
+    },
+    "criteria": {
+      "keep0": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "nbt": "{luatea:2,RepairCost:0}"
+                }
+            ]
+        }
+      },
+      "keep1": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                  "enchantments":[
+                    {"enchantment": "quick_charge","levels":{"max":3,"min": 1}}
+                  ],
+                  "nbt": "{luatea:2}"
+                }
+            ]
+        }
+      },
+      "keep2": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                  "enchantments":[
+                    {"enchantment": "multishot","levels":{"max":3,"min": 1}}
+                  ],
+                  "nbt": "{luatea:2}"
+                }
+            ]
+        }
+      },
+      "keep3": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                  "enchantments":[
+                    {"enchantment": "piercing","levels":{"max":5,"min": 1}}
+                  ],
+                  "nbt": "{luatea:2}"
+                }
+            ]
+        }
+      },
+      "keep4": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                  "enchantments":[
+                    {"enchantment": "vanishing_curse","levels":{"max":3,"min": 1}}
+                  ],
+                  "nbt": "{luatea:2}"
+                }
+            ]
+        }
+      },
+      "keep5": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                  "enchantments":[
+                    {"enchantment": "mending","levels":{"max":3,"min": 1}}
+                  ],
+                  "nbt": "{luatea:2}"
+                }
+            ]
+        }
+      },
+      "keep6": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                  "enchantments":[
+                    {"enchantment": "unbreaking","levels":{"max":3,"min": 1}}
+                  ],
+                  "nbt": "{luatea:2}"
+                }
+            ]
+        }
+      }
+    },
+    "requirements": [["keep0","keep1","keep2","keep3","keep4","keep5","keep6"]]
+  }

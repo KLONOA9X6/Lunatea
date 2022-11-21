@@ -1,0 +1,39 @@
+{
+    "parent": "minecraft:story/mine_diamond",
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond"
+      },
+      "title": "给你钻石！",
+      "description": "白给一枚钻石……"
+      ,
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "diamonds_to_you": {
+        "trigger": "minecraft:thrown_item_picked_up_by_entity",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:diamond"
+            ]
+          },
+          "entity": {
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "diamonds_to_you"
+      ]
+    ]
+  }

@@ -1,0 +1,29 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{display:{Name:{'text':'Man'}},SkullOwner:{Id:[I;-270742577,937774586,-1201974422,825039817],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY3ODZhY2U1ODQwODAzM2Q1NjMwNjQyNzA0M2EwOGE4NmFhYmExM2U0NTgyMWIyOTE1OGUwY2UxMDZlZTQ5YiJ9fX0='}]}}}"
+      },
+      "title": {
+        "translate": "我能玩上一整天"
+      },
+      "description": {
+        "translate": "玩上100天"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "passing_the_time": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "passing_the_time"
+      ]
+    ]
+  }

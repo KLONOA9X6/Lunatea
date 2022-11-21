@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "title": "蛋糕是个谎言！",
+        "description": "什么？做蛋糕不需要鸡蛋？",
+        "frame": "goal",
+        "hidden": true
+    },
+    "parent": "minecraft:husbandry/root",
+    "rewards": {
+        "recipes": ["luatea:cake_no_egg"]
+    },
+    "criteria": {
+        "make_cake":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [{"items": ["minecraft:cake"]}]}
+        }
+    }
+
+}

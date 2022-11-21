@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "luatea:melon",
+    "ingredients":[
+        {
+            "item": "minecraft:melon"
+        }
+    ],
+    "result": {
+      "item": "minecraft:melon_slice",
+      "count": 9
+    }
+  }

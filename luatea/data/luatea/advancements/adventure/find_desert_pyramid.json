@@ -1,0 +1,37 @@
+{
+    "parent": "luatea:adventure/find_village",
+    "display": {
+      "icon": {
+        "item": "minecraft:chiseled_sandstone"
+      },
+      "title": {
+        "translate": "古老神殿"
+      },
+      "description": {
+        "translate": "到访一座沙漠神殿"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "desert_pyramid": {
+        "trigger": "minecraft:location",
+        "conditions": {
+        "player":[{
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "structure": "desert_pyramid"
+          }
+        }}]}
+      }
+    },
+    "requirements": [
+      [
+        "desert_pyramid"
+      ]
+    ]
+  }

@@ -1,0 +1,17 @@
+{
+    "parent": "luatea:sever/root",
+        "rewards": {
+            "recipes":["luatea:bundle"]
+        },
+        "criteria": {
+          "have_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"items":["minecraft:bundle"]}
+                ]
+            }
+          }
+        },
+        "requirements": [["have_bundle"]]
+      }

@@ -1,0 +1,105 @@
+{
+  "parent": "luatea:sever/root",
+  "rewards": {
+    "function": 
+      "luatea:beging"
+  },
+  "criteria": {
+    "x1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+      "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "max": -2,
+              "min": -200
+            },
+            "z": {
+              "max": 200,
+              "min": -200
+            }
+          }
+        }
+      }}]}
+    },
+    "x2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+      "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "max": 200,
+              "min": 2
+            },
+            "z": {
+              "max": 200,
+              "min": -200
+            }
+          }
+        }
+      }}]}
+    },
+    "z1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+      "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "max": 200,
+              "min": -200
+            },
+            "z": {
+              "max": -2,
+              "min": -200
+            }
+          }
+        }
+      }}]}
+    },
+    "z2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+      "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "max": 200,
+              "min": -200
+            },
+            "z": {
+              "max": 200,
+              "min": 2
+            }
+          }
+        }
+      }}]}
+    }
+  },
+  "requirements": [
+    [
+      "x1",
+      "z1",
+      "x2",
+      "z2"
+    ]
+  ]
+}

@@ -1,0 +1,1 @@
+execute in minecraft:overworld positioned 1187 68 747 if entity @a[distance=..50] run function luatea:server/story/rabbit_2

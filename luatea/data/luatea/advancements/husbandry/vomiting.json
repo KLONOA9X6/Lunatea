@@ -1,0 +1,26 @@
+{
+    "parent": "luatea:husbandry/bread",
+    "display": {
+      "icon": {
+        "item": "minecraft:enchanted_golden_apple"
+      },
+      "title": {
+        "translate": "一“吐”呵成"
+      },
+      "description": {
+        "translate": "你忽然吐了一地"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "nausea":{
+          "trigger":"minecraft:effects_changed",
+          "conditions": {
+              "effects":{"minecraft:nausea":{}}
+             }
+        }
+    }
+}

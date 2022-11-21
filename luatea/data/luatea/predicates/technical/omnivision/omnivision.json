@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "luatea:technical/omnivision/mainhand"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "luatea:technical/omnivision/offhand"
+      }
+    ]
+  }
+  

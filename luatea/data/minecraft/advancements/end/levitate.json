@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:nether/brew_potion",
+  "display": {
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "title": {
+      "translate": "漂浮大师"
+    },
+    "description": {
+      "translate": "在漂浮状态下一次向上移动50米，方法不限……"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "criteria": {
+    "levitated": {
+      "trigger": "minecraft:levitation",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 50.0
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "levitated"
+    ]
+  ]
+}

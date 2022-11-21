@@ -1,0 +1,2 @@
+scoreboard objectives add luatea_tp_check_1 dummy
+scoreboard objectives add luatea_tp_check_2 minecraft.used:warped_fungus_on_a_stick

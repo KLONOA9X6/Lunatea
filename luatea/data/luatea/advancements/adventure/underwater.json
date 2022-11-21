@@ -1,0 +1,19 @@
+{
+    "parent": "luatea:adventure/sail_the_7_seas",
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt":"{display:{Name:{'text':'Glass of Water'}},SkullOwner:{Id:[I;-1146889428,632573691,-2144070015,-676114767],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjNmNWY2OWI5NGI2NGNkNTJhY2MyZTg3ZDg0NmY2MzUyYTRjYjA3MDU2YjE0N2UyNDhhZjZlZjlmMjc4ZWY4ZiJ9fX0='}]}}}"
+        },
+        "hidden": true,
+        "frame": "goal",
+        "title": "自由潜水员",
+        "description": "留在水下两分钟"
+    },
+    "criteria": {
+        "underwater":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["underwater"]]
+}

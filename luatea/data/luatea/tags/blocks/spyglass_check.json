@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air",
+    "minecraft:redstone_torch",
+    "minecraft:cobweb",
+    "minecraft:fire",
+    "minecraft:soul_fire",
+    "minecraft:crimson_fence",
+    "minecraft:redstone_wire",
+    "minecraft:redstone_wall_torch",
+    "#minecraft:rails",
+    "#minecraft:buttons",
+    "minecraft:lever",
+    "#minecraft:pressure_plates",
+    "minecraft:nether_sprouts",
+    "minecraft:torch",
+    "minecraft:soul_torch",
+    "minecraft:tripwire_hook",
+    "minecraft:soul_wall_torch"
+  ]
+}

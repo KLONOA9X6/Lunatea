@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:end_crystal"
+    ]
+  },
+  "criteria": {
+    "has_ender_eye": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_end_crystal":{
+      "trigger":"minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:end_crystal"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ender_eye",
+      "has_the_recipe",
+      "has_end_crystal"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "parent": "luatea:husbandry/eat_enchanted_golden_apple",
+    "display": {
+      "icon": {
+        "item": "minecraft:mojang_banner_pattern"
+      },
+      "title": {
+        "translate": "鲜果布衣"
+      },
+      "description": {
+        "translate": "用一个附魔金苹果制作一个模板"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "bread": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:mojang_banner_pattern"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "bread"
+      ]
+    ]
+  }

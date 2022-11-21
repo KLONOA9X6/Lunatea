@@ -1,0 +1,37 @@
+{
+    "criteria": {
+      "in": {
+        "trigger": "minecraft:location",
+        "conditions": {
+        "player":[{"condition":"minecraft:inverted",
+        "term":{
+            "condition": "minecraft:entity_scores",
+            "entity":"this",
+            "scores":{
+                "luatea_safeplacemusic_play_test":1
+            }
+        }}
+            ,
+            {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "position": {
+                "x":{
+                    "max":645,"min":588
+                },
+                "y":{"min":60},
+                "z":{"max":591,"min":428}
+            }
+          }
+        }}]}
+      }
+    },
+    "requirements": [
+      [
+        "in"
+      ]
+    ],
+    "rewards": {"function": "luatea:server/safeplace_play_music/play"}
+  }

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt":"{display:{Name:{'text':'Elder Guardian'}},SkullOwner:{Id:[I;-2099301300,637488734,-1188482528,1503333],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkyMDg5NjE4NDM1YTBlZjYzZTk1ZWU5NWE5MmI4MzA3M2Y4YzMzZmE3N2RjNTM2NTE5OWJhZDMzYjYyNTYifX19'}]}}}"
+        },
+        "title": "困境",
+        "description": "击败一名远古守卫者",
+        "frame": "task",
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/throw_trident",
+    "criteria": {
+        "kill_elder_guardian":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {"type": "minecraft:elder_guardian"}
+            }
+        }
+    }
+}

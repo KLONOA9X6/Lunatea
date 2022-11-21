@@ -1,0 +1,19 @@
+{
+    "parent": "luatea:sever/root",
+        "rewards": {
+          "function": 
+            "luatea:technical/spyglass/no_power"
+        },
+        "criteria": {
+          "spyglass_1":{
+            "trigger": "minecraft:using_item",
+            "conditions": {
+              "item":{
+                "nbt":"{luatea:11}"
+              }
+            }
+          },"log_spam_fixer": {
+            "trigger": "minecraft:location"
+          }
+        }
+      }

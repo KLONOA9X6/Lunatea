@@ -1,0 +1,1 @@
+schedule clear luatea:server/vomit/1_load

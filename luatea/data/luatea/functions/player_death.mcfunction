@@ -1,0 +1,1 @@
+advancement revoke @s only luatea:sever/player_respawn

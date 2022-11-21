@@ -1,0 +1,17 @@
+{
+    "parent": "luatea:sever/root",
+    "rewards": {
+      "function": 
+        "luatea:technical/new_player"
+    },
+    "criteria": {
+      "add": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "requirements": [
+      [
+        "add"
+      ]
+    ]
+  }

@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:rail"
+    ]
+  },
+  "criteria": {
+    "has_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:minecart"
+            ]
+          }
+        ]
+      }
+    },
+    "bug_fix":{
+      "trigger":"minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "minecraft:iron_ingot"
+            ]
+          },
+          {
+            "items":[
+              "minecraft:stick"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:rail"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_minecart",
+      "has_the_recipe",
+      "bug_fix"
+    ]
+  ]
+}

@@ -1,0 +1,1 @@
+execute at @s anchored eyes run function luatea:server_camera_fix_2

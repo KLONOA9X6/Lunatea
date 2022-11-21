@@ -1,0 +1,57 @@
+{
+    "parent": "husbandry/fishy_business",
+    "display": {
+      "icon": {
+        "item": "minecraft:arrow"
+      },
+      "title": {
+        "translate": "水里射鱼"
+      },
+      "description": {
+        "translate": "射桶里的鱼很简单，但游泳时用箭射水里的呢？"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "shout_fish_in_the_water": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "type": {
+              "is_projectile": true,
+              "direct_entity": {
+                "type": "#minecraft:arrows"
+              }
+            }
+          },
+          "entity": {
+              "location": {
+                  "block": {
+                      "blocks": ["minecraft:water"]
+                  }
+              },
+              "type": "#luatea:fish"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "flags": {
+                  "is_swimming":true
+                }
+              },
+              "entity": "this"
+            }
+          ]
+        }
+      }
+    },"#":"尼玛搞了半天只要摸到就算完成，要换战利品表谓词，一大堆代码白打",
+    "requirements": [
+      [
+        "shout_fish_in_the_water"
+      ]
+    ]
+  }

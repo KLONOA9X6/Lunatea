@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {"items": ["minecraft:wither_skeleton_spawn_egg"]},
+          "location": {
+            "block": { "blocks": ["minecraft:spawner"]}
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "luatea:server_camera_fix"
+    },
+    "requirements": [
+      [
+        "impossible"
+      ]
+    ]
+  }

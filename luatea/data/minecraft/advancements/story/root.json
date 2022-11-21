@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "advancements.story.root.title"
+    },
+    "description": {
+      "translate": "你睁开了双眼。令你困惑的是你不知道自己是谁，而且心里还有一个目标指引你"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ]
+}

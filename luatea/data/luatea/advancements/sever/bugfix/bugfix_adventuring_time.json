@@ -1,0 +1,32 @@
+{
+    "parent": "luatea:sever/root",
+    "rewards": {
+      "function": 
+        "luatea:server_advancements_fix_1"
+    },
+    "criteria": {
+      "add": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+            "player": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "player":{
+                            "advancements":{
+                                "luatea:adventure/find_ancient_city":true
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "add"
+      ]
+    ]
+  }

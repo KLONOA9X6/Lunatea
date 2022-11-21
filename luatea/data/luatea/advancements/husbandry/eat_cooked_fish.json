@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:husbandry/fishy_business",
+    "display": {
+      "icon": {
+        "item": "minecraft:cooked_salmon"
+      },
+      "title": {
+        "translate": "美味的鱼"
+      },
+      "description": {
+        "translate": "捕鱼，烹饪，然后吃掉！"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "eat_cooked_cod":{
+          "trigger":"minecraft:consume_item",
+          "conditions": {
+              "item":{"items":["minecraft:cooked_cod"]}
+             }
+        },
+      "eat_cooked_salmon":{
+          "trigger":"minecraft:consume_item",
+          "conditions": {
+              "item":{"items":["minecraft:cooked_salmon"]}
+          }
+        }
+    },
+    "requirements": [["eat_cooked_cod","eat_cooked_salmon"]]
+}

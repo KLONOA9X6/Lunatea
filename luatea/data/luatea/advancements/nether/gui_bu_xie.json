@@ -1,0 +1,483 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": "灵魂鬼步",
+        "description": "你深得“木吉鬼步”的精髓",
+        "hidden": true,
+        "frame": "task"
+    },
+    "parent": "minecraft:nether/root",
+    "criteria": {
+        "gui_bu_xie61":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "predicate": {
+                      "stepping_on": {
+                        "block": {
+                          "blocks": [
+                            "minecraft:soul_sand","minecraft:soul_soil"
+                          ]
+                        }
+                      },
+                      "equipment": {
+                         "feet": {
+                          "items": ["minecraft:netherite_boots"],
+                          "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 1}]
+                         }
+                      }
+                    },
+                    "entity": "this"
+                    }
+                  ]
+                 }
+                },
+                "gui_bu_xie62":{
+                "trigger": "minecraft:location",
+                "conditions": {
+                    "player": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "predicate": {
+                            "stepping_on": {
+                              "block": {
+                                "blocks": [
+                                  "minecraft:soul_sand","minecraft:soul_soil"
+                                ]
+                              }
+                            },
+                            "equipment": {
+                              "feet": {
+                                "items": ["minecraft:netherite_boots"],
+                                "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 2}]
+                              }
+                            }
+                          },
+                          "entity": "this"
+                        }
+                      ]
+                    }
+                },
+                "gui_bu_xie63":{
+                    "trigger": "minecraft:location",
+                    "conditions": {
+                        "player": [
+                            {
+                              "condition": "minecraft:entity_properties",
+                              "predicate": {
+                                "stepping_on": {
+                                  "block": {
+                                    "blocks": [
+                                      "minecraft:soul_sand","minecraft:soul_soil"
+                                    ]
+                                  }
+                                },
+                                "equipment": {
+                                  "feet": {
+                                    "items": ["minecraft:netherite_boots"],
+                                    "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 3}]
+                                  }
+                                }
+                              },
+                              "entity": "this"
+                            }
+                          ]
+                        }
+                    },
+                    "gui_bu_xie51":{
+                      "trigger": "minecraft:location",
+                      "conditions": {
+                          "player": [
+                              {
+                                "condition": "minecraft:entity_properties",
+                                "predicate": {
+                                  "stepping_on": {
+                                    "block": {
+                                      "blocks": [
+                                        "minecraft:soul_sand","minecraft:soul_soil"
+                                      ]
+                                    }
+                                  },
+                                  "equipment": {
+                                    "feet": {
+                                      "items": ["minecraft:golden_boots"],
+                                      "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 1}]
+                                    }
+                                  }
+                                },
+                                "entity": "this"
+                              }
+                            ]
+                          }
+                      },
+                      "gui_bu_xie52":{
+                        "trigger": "minecraft:location",
+                        "conditions": {
+                            "player": [
+                                {
+                                  "condition": "minecraft:entity_properties",
+                                  "predicate": {
+                                    "stepping_on": {
+                                      "block": {
+                                        "blocks": [
+                                          "minecraft:soul_sand","minecraft:soul_soil"
+                                        ]
+                                      }
+                                    },
+                                    "equipment": {
+                                      "feet": {
+                                        "items": ["minecraft:golden_boots"],
+                                        "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 2}]
+                                      }
+                                    }
+                                  },
+                                  "entity": "this"
+                                }
+                              ]
+                            }
+                        },
+                        "gui_bu_xie53":{
+                          "trigger": "minecraft:location",
+                          "conditions": {
+                              "player": [
+                                  {
+                                    "condition": "minecraft:entity_properties",
+                                    "predicate": {
+                                      "stepping_on": {
+                                        "block": {
+                                          "blocks": [
+                                            "minecraft:soul_sand","minecraft:soul_soil"
+                                          ]
+                                        }
+                                      },
+                                      "equipment": {
+                                        "feet": {
+                                          "items": ["minecraft:golden_boots"],
+                                          "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 3}]
+                                        }
+                                      }
+                                    },
+                                    "entity": "this"
+                                  }
+                                ]
+                              }
+                          },
+                          "gui_bu_xie41":{
+                    "trigger": "minecraft:location",
+                    "conditions": {
+                        "player": [
+                            {
+                              "condition": "minecraft:entity_properties",
+                              "predicate": {
+                                "stepping_on": {
+                                  "block": {
+                                    "blocks": [
+                                      "minecraft:soul_sand","minecraft:soul_soil"
+                                    ]
+                                  }
+                                },
+                                "equipment": {
+                                  "feet": {
+                                    "items": ["minecraft:diamond_boots"],
+                                    "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 1}]
+                                  }
+                                }
+                              },
+                              "entity": "this"
+                            }
+                          ]
+                        }
+                    },
+                    "gui_bu_xie42":{
+                      "trigger": "minecraft:location",
+                      "conditions": {
+                          "player": [
+                              {
+                                "condition": "minecraft:entity_properties",
+                                "predicate": {
+                                  "stepping_on": {
+                                    "block": {
+                                      "blocks": [
+                                        "minecraft:soul_sand","minecraft:soul_soil"
+                                      ]
+                                    }
+                                  },
+                                  "equipment": {
+                                    "feet": {
+                                      "items": ["minecraft:diamond_boots"],
+                                      "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 2}]
+                                    }
+                                  }
+                                },
+                                "entity": "this"
+                              }
+                            ]
+                          }
+                      },
+                      "gui_bu_xie43":{
+                        "trigger": "minecraft:location",
+                        "conditions": {
+                            "player": [
+                                {
+                                  "condition": "minecraft:entity_properties",
+                                  "predicate": {
+                                    "stepping_on": {
+                                      "block": {
+                                        "blocks": [
+                                          "minecraft:soul_sand","minecraft:soul_soil"
+                                        ]
+                                      }
+                                    },
+                                    "equipment": {
+                                      "feet": {
+                                        "items": ["minecraft:diamond_boots"],
+                                        "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 3}]
+                                      }
+                                    }
+                                  },
+                                  "entity": "this"
+                                }
+                              ]
+                            }
+                        },
+                        "gui_bu_xie33":{
+                          "trigger": "minecraft:location",
+                          "conditions": {
+                              "player": [
+                                  {
+                                    "condition": "minecraft:entity_properties",
+                                    "predicate": {
+                                      "stepping_on": {
+                                        "block": {
+                                          "blocks": [
+                                            "minecraft:soul_sand","minecraft:soul_soil"
+                                          ]
+                                        }
+                                      },
+                                      "equipment": {
+                                        "feet": {
+                                          "items": ["minecraft:iron_boots"],
+                                          "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 3}]
+                                        }
+                                      }
+                                    },
+                                    "entity": "this"
+                                  }
+                                ]
+                              }
+                          },
+                          "gui_bu_xie32":{
+                            "trigger": "minecraft:location",
+                            "conditions": {
+                                "player": [
+                                    {
+                                      "condition": "minecraft:entity_properties",
+                                      "predicate": {
+                                        "stepping_on": {
+                                          "block": {
+                                            "blocks": [
+                                              "minecraft:soul_sand","minecraft:soul_soil"
+                                            ]
+                                          }
+                                        },
+                                        "equipment": {
+                                          "feet": {
+                                            "items": ["minecraft:iron_boots"],
+                                            "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 2}]
+                                          }
+                                        }
+                                      },
+                                      "entity": "this"
+                                    }
+                                  ]
+                                }
+                            },
+                            "gui_bu_xie31":{
+                              "trigger": "minecraft:location",
+                              "conditions": {
+                                  "player": [
+                                      {
+                                        "condition": "minecraft:entity_properties",
+                                        "predicate": {
+                                          "stepping_on": {
+                                            "block": {
+                                              "blocks": [
+                                                "minecraft:soul_sand","minecraft:soul_soil"
+                                              ]
+                                            }
+                                          },
+                                          "equipment": {
+                                            "feet": {
+                                              "items": ["minecraft:iron_boots"],
+                                              "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 1}]
+                                            }
+                                          }
+                                        },
+                                        "entity": "this"
+                                      }
+                                    ]
+                                  }
+                              },
+                              "gui_bu_xie23":{
+                                "trigger": "minecraft:location",
+                                "conditions": {
+                                    "player": [
+                                        {
+                                          "condition": "minecraft:entity_properties",
+                                          "predicate": {
+                                            "stepping_on": {
+                                              "block": {
+                                                "blocks": [
+                                                  "minecraft:soul_sand","minecraft:soul_soil"
+                                                ]
+                                              }
+                                            },
+                                            "equipment": {
+                                              "feet": {
+                                                "items": ["minecraft:chainmail_boots"],
+                                                "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 3}]
+                                              }
+                                            }
+                                          },
+                                          "entity": "this"
+                                        }
+                                      ]
+                                    }
+                                },
+                                "gui_bu_xie22":{
+                                  "trigger": "minecraft:location",
+                                  "conditions": {
+                                      "player": [
+                                          {
+                                            "condition": "minecraft:entity_properties",
+                                            "predicate": {
+                                              "stepping_on": {
+                                                "block": {
+                                                  "blocks": [
+                                                    "minecraft:soul_sand","minecraft:soul_soil"
+                                                  ]
+                                                }
+                                              },
+                                              "equipment": {
+                                                "feet": {
+                                                  "items": ["minecraft:chainmail_boots"],
+                                                  "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 2}]
+                                                }
+                                              }
+                                            },
+                                            "entity": "this"
+                                          }
+                                        ]
+                                      }
+                                  },
+                                  "gui_bu_xie21":{
+                                    "trigger": "minecraft:location",
+                                    "conditions": {
+                                        "player": [
+                                            {
+                                              "condition": "minecraft:entity_properties",
+                                              "predicate": {
+                                                "stepping_on": {
+                                                  "block": {
+                                                    "blocks": [
+                                                      "minecraft:soul_sand","minecraft:soul_soil"
+                                                    ]
+                                                  }
+                                                },
+                                                "equipment": {
+                                                  "feet": {
+                                                    "items": ["minecraft:chainmail_boots"],
+                                                    "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 1}]
+                                                  }
+                                                }
+                                              },
+                                              "entity": "this"
+                                            }
+                                          ]
+                                        }
+                                    },
+                                    "gui_bu_xie13":{
+                                      "trigger": "minecraft:location",
+                                      "conditions": {
+                                          "player": [
+                                              {
+                                                "condition": "minecraft:entity_properties",
+                                                "predicate": {
+                                                  "stepping_on": {
+                                                    "block": {
+                                                      "blocks": [
+                                                        "minecraft:soul_sand","minecraft:soul_soil"
+                                                      ]
+                                                    }
+                                                  },
+                                                  "equipment": {
+                                                    "feet": {
+                                                      "items": ["minecraft:leather_boots"],
+                                                      "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 3}]
+                                                    }
+                                                  }
+                                                },
+                                                "entity": "this"
+                                              }
+                                            ]
+                                          }
+                                      },
+                                      "gui_bu_xie12":{
+                                        "trigger": "minecraft:location",
+                                        "conditions": {
+                                            "player": [
+                                                {
+                                                  "condition": "minecraft:entity_properties",
+                                                  "predicate": {
+                                                    "stepping_on": {
+                                                      "block": {
+                                                        "blocks": [
+                                                          "minecraft:soul_sand","minecraft:soul_soil"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "equipment": {
+                                                      "feet": {
+                                                        "items": ["minecraft:leather_boots"],
+                                                        "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 2}]
+                                                      }
+                                                    }
+                                                  },
+                                                  "entity": "this"
+                                                }
+                                              ]
+                                            }
+                                        },
+                                        "gui_bu_xie11":{
+                                          "trigger": "minecraft:location",
+                                          "conditions": {
+                                              "player": [
+                                                  {
+                                                    "condition": "minecraft:entity_properties",
+                                                    "predicate": {
+                                                      "stepping_on": {
+                                                        "block": {
+                                                          "blocks": [
+                                                            "minecraft:soul_sand","minecraft:soul_soil"
+                                                          ]
+                                                        }
+                                                      },
+                                                      "equipment": {
+                                                        "feet": {
+                                                          "items": ["minecraft:leather_boots"],
+                                                          "enchantments": [{"enchantment":"minecraft:soul_speed","levels": 1}]
+                                                        }
+                                                      }
+                                                    },
+                                                    "entity": "this"
+                                                  }
+                                                ]
+                                              }
+                                          }
+    },
+    "requirements": [["gui_bu_xie11","gui_bu_xie12","gui_bu_xie13","gui_bu_xie21","gui_bu_xie22","gui_bu_xie23","gui_bu_xie31","gui_bu_xie32","gui_bu_xie33","gui_bu_xie41","gui_bu_xie42","gui_bu_xie43","gui_bu_xie51","gui_bu_xie52","gui_bu_xie53","gui_bu_xie61","gui_bu_xie62","gui_bu_xie63"]]
+}

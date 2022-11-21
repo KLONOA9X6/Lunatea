@@ -1,0 +1,1054 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "title": "登峰造极",
+        "description": "完成所有原版进度，目标和挑战",
+        "frame": "challenge",
+        "hidden": false
+    },
+    "parent": "minecraft:story/enter_the_end",
+    "rewards": {"function": "luatea:finish"},
+    "criteria": {
+        "finish":{
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/ride_strider_in_overworld_lava":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/play_jukebox_in_meadows":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type_specific":{
+                            "type":"player",
+                            "advancements": {
+                                "minecraft:adventure/trade_at_world_height":true
+                            }
+                        }
+                    }
+                },
+                    {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type_specific":{
+                            "type":"player",
+                            "advancements": {
+                                "minecraft:adventure/fall_from_world_height":true
+                            }
+                        }
+                    }
+                },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/upgrade_tools":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/smelt_iron":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/obtain_armor":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/lava_bucket":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/iron_tools":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/deflect_arrow":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/form_obsidian":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/mine_diamond":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/enter_the_nether":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/shiny_gear":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/enchant_item":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/cure_zombie_villager":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                                "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/follow_ender_eye":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:story/enter_the_end":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/return_to_sender":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/obtain_ancient_debris":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/fast_travel":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/find_fortress":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/obtain_crying_obsidian":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/obtain_crying_obsidian":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/distract_piglin":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/ride_strider":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/uneasy_alliance":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/use_lodestone":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/netherite_armor":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/get_wither_skull":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/obtain_blaze_rod":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/charge_respawn_anchor":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/explore_nether":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/summon_wither":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/brew_potion":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/create_full_beacon":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:nether/all_effects":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:end/kill_dragon":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:end/enter_end_gateway":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:end/respawn_dragon":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:end/dragon_breath":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:end/find_end_city":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:end/elytra":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:end/levitate":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/spyglass_at_parrot":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/trade":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/honey_block_slide":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/lightning_rod_with_villager_no_fire":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/walk_on_powder_snow_with_leather_boots":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/sleep_in_bed":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/hero_of_the_village":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/spyglass_at_ghast":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/kill_all_mobs":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/totem_of_undying":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/summon_iron_golem":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/two_birds_one_arrow":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/whos_the_pillager_now":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/arbalistic":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/adventuring_time":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/spyglass_at_dragon":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/very_very_frightening":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/throw_trident":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/sniper_duel":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/bullseye":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/safely_harvest_honey":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/ride_a_boat_with_a_goat":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/make_a_sign_glow":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/fishy_business":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/silk_touch_nest":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/plant_seed":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/wax_on":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/bred_all_animals":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/complete_catalogue":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/tactical_fishing":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/balanced_diet":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/obtain_netherite_hoe":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/wax_off":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/axolotl_in_a_bucket":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/kill_axolotl_target":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/tadpole_in_a_bucket":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/kill_mob_near_sculk_catalyst":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/froglights":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/allay_deliver_item_to_player":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/allay_deliver_cake_to_note_block":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:adventure/avoid_vibration":true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific":{
+                                "type":"player",
+                                "advancements": {
+                                    "minecraft:husbandry/leash_all_frog_variants":true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

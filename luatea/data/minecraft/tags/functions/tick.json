@@ -1,0 +1,4 @@
+{
+    "replace": true,
+    "values": ["luatea:fly_pig","luatea:spawnpoint_portal_tick","luatea:technical/clock/tick"]
+}

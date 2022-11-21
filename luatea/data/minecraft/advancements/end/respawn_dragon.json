@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:end/kill_dragon",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "终末仪式"
+    },
+    "description": {
+      "translate": "你将为何而去战斗"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "summoned_dragon": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "summoned_dragon"
+    ]
+  ],
+  "rewards":{
+    "function":"sp_end_bgm_fix:boss_respawn"
+  }
+}

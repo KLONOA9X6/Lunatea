@@ -1,0 +1,19 @@
+{
+    "parent": "luatea:sever/root",
+        "rewards": {
+          "function": 
+            "luatea:technical/makusi/shotcheck"
+        },
+        "criteria": {
+          "makusi_1_shot":{
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+              "item":{
+                "nbt":"{luatea:3}"
+              }
+            }
+          },"log_spam_fixer": {
+            "trigger": "minecraft:location"
+          }
+        }
+      }

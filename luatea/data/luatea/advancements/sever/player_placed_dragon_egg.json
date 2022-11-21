@@ -1,0 +1,23 @@
+{
+    "parent": "luatea:sever/root",
+    "rewards": {
+      "function": 
+        "luatea:server/story/weather_tigger_1"
+    },
+    "criteria": {
+      "player_placed_dragon_egg": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:dragon_egg",
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "player_placed_dragon_egg"
+      ]
+    ]
+  }

@@ -1,0 +1,1 @@
+tellraw @a[distance=..15] [{"selector":"@s","color":"gray","clickEvent":{"action":"run_command","value":"/me 试图凑热闹中"},"hoverEvent":{"action":"show_text","contents":[{"selector":"@s"},{"text":"试图看懂这段文字："},{"text":"No Admittance","font":"minecraft:illageralt"}]}},{"text":"心想：这写的是什么鬼东西？"}]

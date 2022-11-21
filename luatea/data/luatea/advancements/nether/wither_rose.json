@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_rose"
+        },
+        "title": "凋零之息",
+        "description": "你感受到了凋零的气息，还好只是在手上",
+        "hidden": true,
+        "frame": "task"
+    },
+    "parent": "minecraft:nether/summon_wither",
+    "criteria": {
+        "wither_rose":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["minecraft:wither_rose"]
+                }]
+            }
+        }
+    }
+}

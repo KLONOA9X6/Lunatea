@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "use_disc":{
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": ["minecraft:jukebox"],
+                        "nbt":"{IsPlaying:1b}"
+                    }
+                },
+                "item": {
+                    "items": [
+                        "minecraft:music_disc_strad"
+                    ],
+                    "nbt":"{CustomModelData:203}"
+                }
+            }
+        }
+    },
+    "parent": "luatea:sever/disc/root",
+    "rewards": {
+        "function": "luatea:server/music/disc/fallen_down"
+    }
+}

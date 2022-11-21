@@ -1,0 +1,37 @@
+{
+    "parent": "luatea:adventure/find_desert_pyramid",
+    "display": {
+      "icon": {
+        "item": "minecraft:snowball"
+      },
+      "title": {
+        "translate": "爱斯基摩人"
+      },
+      "description": {
+        "translate": "到访一座雪屋"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "igloo": {
+        "trigger": "minecraft:location",
+        "conditions": {
+        "player":[{
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "structure": "igloo"
+          }
+        }}]}
+      }
+    },
+    "requirements": [
+      [
+        "igloo"
+      ]
+    ]
+  }

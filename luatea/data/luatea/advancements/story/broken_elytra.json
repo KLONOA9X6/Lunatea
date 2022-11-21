@@ -1,0 +1,39 @@
+{
+    "parent": "minecraft:end/elytra",
+    "display": {
+      "icon": {
+        "item": "minecraft:elytra",
+        "nbt": "{Damage:432}"
+      },
+      "title": {
+        "translate": "结 构 失 效"
+      },
+      "description": {
+        "translate": "“The computer says we can’t make it.”"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "elytra": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:elytra"
+              ],
+              "nbt": "{Damage:431}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "elytra"
+      ]
+    ]
+  }

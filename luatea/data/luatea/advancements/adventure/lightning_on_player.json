@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:adventure/lightning_rod_with_villager_no_fire",
+    "criteria": {
+      "lightning_on_player": {
+        "conditions": {
+            "damage":{
+                "type": {
+                    "is_lightning":true
+                }
+            }
+        },
+        "trigger": "minecraft:entity_hurt_player"
+      }
+    },
+    "display": {
+      "announce_to_chat": true,
+      "description": {
+        "translate": "雷神对你降下了惩罚"
+      },
+      "frame": "task",
+      "hidden": false,
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{display:{Name:{'text':'Shocked Pig'}},SkullOwner:{Id:[I;752141908,151210498,-1531220275,284033253],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRkOTdhZjE2MDdmZDZjMzUxMjRkY2E4Y2M4ZWQ3N2JlOGEzNzA1OWZlZTRkZjliZjliNzk4N2UxOGRiZDAyNSJ9fX0='}]}}}"
+      },
+      "show_toast": true,
+      "title": {
+        "translate": "天 谴 降 临 ！"
+      }
+    },
+    "requirements": [
+      [
+        "lightning_on_player"
+      ]
+    ]
+  }

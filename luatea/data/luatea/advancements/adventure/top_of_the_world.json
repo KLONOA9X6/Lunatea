@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:scaffolding"
+		},
+		"title": "世界之巅",
+		"description": "用脚手架搭到最高建筑限制",
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"parent": "minecraft:adventure/fall_from_world_height",
+	"criteria": {
+		"scaffolding": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:scaffolding"
+					]
+				},
+				"location": {
+					"position": {
+						"y": {
+							"min": 319
+						}
+					},
+					"dimension": "minecraft:overworld"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"scaffolding"
+		]
+	]
+}

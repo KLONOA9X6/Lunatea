@@ -1,0 +1,38 @@
+{
+    "parent": "luatea:adventure/find_village",
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt":"{display:{Name:{'text':'Evoker'}},SkullOwner:{Id:[I;-1695604743,2120698196,-1934226442,-2062254106],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjMwY2U3NzVlZGI2NWRiOGMyNzQxYmRmYWU4NGYzYzBkMDI4NWFiYTkzYWZhZGM3NDkwMGQ1NWRmZDk1MDRhNSJ9fX0='}]}}}"
+      },
+      "title": {
+        "translate": "“私 人 领 地”"
+      },
+      "description": {
+        "translate": "到访一座林地府邸"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "mansion": {
+        "trigger": "minecraft:location",
+        "conditions": {
+        "player":[{
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "structure": "mansion"
+          }
+        }}]}
+      }
+    },
+    "requirements": [
+      [
+        "mansion"
+      ]
+    ]
+  }
