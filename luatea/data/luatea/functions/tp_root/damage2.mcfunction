@@ -1,0 +1,1 @@
+execute as @a[scores={luatea_tp_check_1=1},limit=1] run attribute @s minecraft:generic.max_health base set 20
