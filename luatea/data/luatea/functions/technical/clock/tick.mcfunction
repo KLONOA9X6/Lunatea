@@ -1,7 +1,7 @@
 #风之指环弹射物触发控制
 execute as @e[type=marker,tag=ring.marker] at @s run function luatea:technical/ring/marker
 #复制品
-execute as @e[type=marker,tag=ring.marker] at @s run function luatea:technical/ring2/marker
+execute as @e[type=marker,tag=ring.marker2] at @s run function luatea:technical/ring2/marker
 
 #风之指环上弹类型检测
 execute as @a if entity @s[predicate=luatea:technical/ring/ring] run function luatea:technical/ring/hold
