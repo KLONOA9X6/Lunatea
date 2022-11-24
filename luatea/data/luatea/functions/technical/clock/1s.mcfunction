@@ -8,9 +8,7 @@ execute as @a if score @s playe_time matches 120000.. run advancement grant @s o
 function luatea:tp_clock_overworld/make_test
 function luatea:tp_clock_the_end/make_test
 function luatea:tp_root/check
-# 流浪商人系列
-function luatea:wandering_trader/tick/nether
-function luatea:wandering_trader/tick/the_end
+
 
 
 

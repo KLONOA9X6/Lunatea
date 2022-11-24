@@ -1,1 +1,0 @@
-execute in minecraft:the_end as @e[type=wandering_trader,tag=!the_end_check] run function luatea:wandering_trader/cheak_the_end

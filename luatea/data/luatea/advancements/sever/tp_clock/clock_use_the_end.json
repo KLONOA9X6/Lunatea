@@ -1,0 +1,25 @@
+{
+  "parent": "luatea:sever/root",
+  "rewards": {
+    "function": 
+      "luatea:tp_clock_the_end/tp_check"
+  },
+  "criteria": {
+    "use_clock_tp_overworld":{
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "nbt":"{luatea:tp_the_end}"
+        },
+        "player": {
+          "location": {"dimension":"minecraft:the_end"}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_clock_tp_overworld"
+    ]
+  ]
+}
