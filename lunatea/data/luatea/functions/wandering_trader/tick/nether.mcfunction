@@ -1,0 +1,1 @@
+execute in minecraft:the_nether as @e[type=wandering_trader,tag=!nether_check] run function luatea:wandering_trader/cheak_nether
