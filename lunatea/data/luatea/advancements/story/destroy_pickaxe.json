@@ -1,0 +1,57 @@
+{
+  "parent": "minecraft:story/enchant_item",
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner: {Id: [I; -185230650, 565464062, -1862332309, 1690686873], Properties: {textures: [{Signature: 'p0O2ADgrpUPKRvfjZn93WYhlvHSPJFp2xoiQght7iQaQ+RUmYflX6rQlVaTJtrx6gVqu5G0eYjH31dCGhyouUimgqElTbmKJhBD27J9W6Vz9Vo5KYhXWuqFTCZv7whGHZtNUBGsDGpchW+Dg56yrfpnKv1W1thIqJoQYrKjqOhBcevg8jPc71kBX04wZjzN/cVhisQ6VcQNaeD0rRAvTSudIJe0WQODKxyhzWbZ3wCFL2sDfXRkqNndgFrDaNUbadweuHkL7lVqgDEceQ01SJpzscmLJU7Mec3YBBYVG/wqcy/j4MIqo4On7nhNdR0lM/eDzIEDVpxWdKMximcBsQARD7mZTgi+KtGdrnMrb0fN5zvm9ALHerDzPXZxk0uWTm09d//VRiqc+vHLE3lBkU0rtc2xONFEJ88AFRYcKsQn86Hk1TvbvoMZHOv1IXXkFjiiEMztx4/8K1sgprqLW7N52p9iCMV0xTfzjdxDnp9NMEcX6+5M37wS0lgAvUeomeAFF2Dxyvb3X63PvRJP2VV4Q86xZUYj/wKitVs7880DXZnKJPkZT/Pm+J/n4zfXy/fAvM6KXnz4a19QyM29FxGYevg7dIwj+oYb907Xb5WYPRGXk8H2dl6wuKaKrJWNl1fHhx7eLiLEUIfsPABlQCiHBNKmAyg8V5kJtIQTQzCE=', Value: 'ewogICJ0aW1lc3RhbXAiIDogMTY2OTY0OTg2OTg1NiwKICAicHJvZmlsZUlkIiA6ICJmNGY1OWFjNjIxYjQ0YmZlOTBmZjEwNmI2NGM1ZDU5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaaV9fTWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RhNTAxNDRlY2VkMDAxYjkwODZlODc2Mjg1OTJhNTJjYTQ4MjBlMzFjZmQwYjQ2M2MzOGFjZTg5ZmFmZGViNzciCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9'}]}, Name: 'Zi__Min'}}"
+    },
+    "title": {
+      "translate": "我 搞 爆 了 ！"
+    },
+    "description": {
+      "translate": "“哎呀我的神稿！” ————籽岷"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 150
+  },
+  "criteria": {
+    "pickaxe_1": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {"max":0,"min": -10},
+        "item": {"items": ["minecraft:netherite_pickaxe"],"enchantments": [{"enchantment": "minecraft:unbreaking","levels": 3},{"enchantment": "minecraft:fortune","levels": 3},{"enchantment": "minecraft:efficiency","levels": 5},{"enchantment": "minecraft:mending","levels": 1}]}
+        }
+      },
+    "pickaxe_2": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {"max":0,"min": -10},
+        "item": {"items": ["minecraft:netherite_pickaxe"],"enchantments": [{"enchantment": "minecraft:unbreaking","levels": 3},{"enchantment": "minecraft:silk_touch","levels": 1},{"enchantment": "minecraft:efficiency","levels": 5},{"enchantment": "minecraft:mending","levels": 1}]}
+        }
+      },
+    "pickaxe_3": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {"max":0,"min": -10},
+        "item": {"items": ["minecraft:diamond_pickaxe"],"enchantments": [{"enchantment": "minecraft:unbreaking","levels": 3},{"enchantment": "minecraft:silk_touch","levels": 1},{"enchantment": "minecraft:efficiency","levels": 5},{"enchantment": "minecraft:mending","levels": 1}]}
+        }
+      },
+    "pickaxe_4": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {"max":0,"min": -10},
+        "item": {"items": ["minecraft:diamond_pickaxe"],"enchantments": [{"enchantment": "minecraft:unbreaking","levels": {"min":2}},{"enchantment": "minecraft:fortune","levels": 3},{"enchantment": "minecraft:efficiency","levels": 5},{"enchantment": "minecraft:mending","levels": 1}]}
+        }
+      }
+  },
+  "requirements": [
+    [
+      "pickaxe_1","pickaxe_2","pickaxe_3","pickaxe_4"
+    ]
+  ]
+}
