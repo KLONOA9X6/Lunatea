@@ -6,10 +6,10 @@
       "nbt": "{SkullOwner: {Id: [I; -185230650, 565464062, -1862332309, 1690686873], Properties: {textures: [{Signature: 'p0O2ADgrpUPKRvfjZn93WYhlvHSPJFp2xoiQght7iQaQ+RUmYflX6rQlVaTJtrx6gVqu5G0eYjH31dCGhyouUimgqElTbmKJhBD27J9W6Vz9Vo5KYhXWuqFTCZv7whGHZtNUBGsDGpchW+Dg56yrfpnKv1W1thIqJoQYrKjqOhBcevg8jPc71kBX04wZjzN/cVhisQ6VcQNaeD0rRAvTSudIJe0WQODKxyhzWbZ3wCFL2sDfXRkqNndgFrDaNUbadweuHkL7lVqgDEceQ01SJpzscmLJU7Mec3YBBYVG/wqcy/j4MIqo4On7nhNdR0lM/eDzIEDVpxWdKMximcBsQARD7mZTgi+KtGdrnMrb0fN5zvm9ALHerDzPXZxk0uWTm09d//VRiqc+vHLE3lBkU0rtc2xONFEJ88AFRYcKsQn86Hk1TvbvoMZHOv1IXXkFjiiEMztx4/8K1sgprqLW7N52p9iCMV0xTfzjdxDnp9NMEcX6+5M37wS0lgAvUeomeAFF2Dxyvb3X63PvRJP2VV4Q86xZUYj/wKitVs7880DXZnKJPkZT/Pm+J/n4zfXy/fAvM6KXnz4a19QyM29FxGYevg7dIwj+oYb907Xb5WYPRGXk8H2dl6wuKaKrJWNl1fHhx7eLiLEUIfsPABlQCiHBNKmAyg8V5kJtIQTQzCE=', Value: 'ewogICJ0aW1lc3RhbXAiIDogMTY2OTY0OTg2OTg1NiwKICAicHJvZmlsZUlkIiA6ICJmNGY1OWFjNjIxYjQ0YmZlOTBmZjEwNmI2NGM1ZDU5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaaV9fTWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RhNTAxNDRlY2VkMDAxYjkwODZlODc2Mjg1OTJhNTJjYTQ4MjBlMzFjZmQwYjQ2M2MzOGFjZTg5ZmFmZGViNzciCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9'}]}, Name: 'Zi__Min'}}"
     },
     "title": {
-      "translate": "我 搞 爆 了 ！"
+      "translate": "我 镐 爆 了 ！"
     },
     "description": {
-      "translate": "“哎呀我的神稿！” ————籽岷"
+      "translate": "“哎呀我的神镐！” ——籽岷"
     },
     "frame": "challenge",
     "show_toast": true,
