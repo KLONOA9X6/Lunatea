@@ -45,7 +45,7 @@
       "trigger": "minecraft:item_durability_changed",
       "conditions": {
         "durability": {"max":0,"min": -10},
-        "item": {"items": ["minecraft:diamond_pickaxe"],"enchantments": [{"enchantment": "minecraft:unbreaking","levels": {"min":2}},{"enchantment": "minecraft:fortune","levels": 3},{"enchantment": "minecraft:efficiency","levels": 5},{"enchantment": "minecraft:mending","levels": 1}]}
+        "item": {"items": ["minecraft:diamond_pickaxe"],"enchantments": [{"enchantment": "minecraft:unbreaking","levels": 3},{"enchantment": "minecraft:fortune","levels": 3},{"enchantment": "minecraft:efficiency","levels": 5},{"enchantment": "minecraft:mending","levels": 1}]}
         }
       }
   },
