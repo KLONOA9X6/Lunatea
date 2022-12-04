@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "emblem_of_the_star": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [{
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores":{
+            "luatea_health":{"min":0 ,"max": 5}
+          }
+        }]
+      }
+    }
+  },
+  "rewards": {
+    "function": "luatea:technical/emblem_of_the_star/test"
+  },
+  "requirements": [
+    [
+      "emblem_of_the_star"
+    ]
+  ]
+}

@@ -5,6 +5,7 @@ scoreboard objectives add tame_wolf dummy
 scoreboard objectives add playe_time dummy
 scoreboard objectives add hk_pain dummy
 scoreboard objectives add luatea_disc_check dummy
+scoreboard objectives add luatea_health health
 
 give @s minecraft:oak_log 6
 effect give @s minecraft:saturation 20 255

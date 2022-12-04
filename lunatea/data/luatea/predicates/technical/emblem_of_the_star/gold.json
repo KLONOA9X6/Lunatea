@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "nbt": "{luatea_gold_star:1}"
+        }
+      }
+    }
+  }

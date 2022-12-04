@@ -1,0 +1,1 @@
+advancement revoke @a only luatea:sever/technical/emblem_of_the_star
