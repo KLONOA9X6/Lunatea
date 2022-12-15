@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1002,luatea_gold_star:1,display:{Name:'{\"text\":\"金质徽章\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"一块金质的星之徽章\",\"italic\":false}','{\"text\":\"戴在头上也许会有庇护效果\",\"italic\":false}','{\"text\":\"使用/trigger Hat戴在头上\",\"italic\":true,\"color\":\"gray\"}']}}"
+            }
+          ],
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1003,luatea_platinum_star:1,display:{Name:'{\"text\":\"铁质徽章\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"一块貌似是铁质的星之徽章\",\"italic\":false}','{\"text\":\"戴在头上也许会有庇护效果\",\"italic\":false}','{\"text\":\"使用/trigger Hat戴在头上\",\"italic\":true,\"color\":\"gray\"}']}}"
+            }
+          ],
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1001,luatea_cooper_star:1,display:{Name:'{\"text\":\"铜质徽章\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"一块铜质的星之徽章\",\"italic\":false}','{\"text\":\"戴在头上也许会有庇护效果\",\"italic\":false}','{\"text\":\"使用/trigger Hat戴在头上\",\"italic\":true,\"color\":\"gray\"}']}}"
+            }
+          ],
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1004,luatea_copper_weathered_star:1,display:{Name:'{\"text\":\"略微生锈的铜质徽章\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"一块略微生锈的铜质星之徽章\",\"italic\":false}','{\"text\":\"戴在头上也许会有庇护效果\",\"italic\":false}','{\"text\":\"使用/trigger Hat戴在头上\",\"italic\":true,\"color\":\"gray\"}']}}"
+            }
+          ],
+          "name": "minecraft:phantom_membrane"
+        }
+      ]
+    }
+  ]
+}

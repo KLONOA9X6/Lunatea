@@ -1,6 +1,6 @@
 {
     "criteria": {
-      "in": {
+      "sandstone": {
         "trigger": "minecraft:location",
         "conditions": {
         "player":[{"condition":"minecraft:inverted",
@@ -26,11 +26,65 @@
             }
           }
         }}]}
+      },
+      "biao707": {
+        "trigger": "minecraft:location",
+        "conditions": {
+        "player":[{"condition":"minecraft:inverted",
+        "term":{
+            "condition": "minecraft:entity_scores",
+            "entity":"this",
+            "scores":{
+                "luatea_safeplacemusic_play_test":1
+            }
+        }}
+            ,
+            {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "position": {
+                "x":{
+                    "max":3281,"min":2981
+                },
+                "y":{"min":60},
+                "z":{"max":1555,"min":1373}
+            }
+          }
+        }}]}
+      },
+      "404": {
+        "trigger": "minecraft:location",
+        "conditions": {
+        "player":[{"condition":"minecraft:inverted",
+        "term":{
+            "condition": "minecraft:entity_scores",
+            "entity":"this",
+            "scores":{
+                "luatea_safeplacemusic_play_test":1
+            }
+        }}
+            ,
+            {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "position": {
+                "x":{
+                    "max":-696,"min":-844
+                },
+                "y":{"min":46,"max":150},
+                "z":{"max":-1040,"min":-1139}
+            }
+          }
+        }}]}
       }
     },
     "requirements": [
       [
-        "in"
+        "sandstone","biao707","404"
       ]
     ],
     "rewards": {"function": "luatea:server/safeplace_play_music/play"}

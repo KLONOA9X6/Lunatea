@@ -20,6 +20,18 @@
     "minecraft:dead_tube_coral",
     "minecraft:dead_tube_coral_fan",
     "minecraft:dead_tube_coral_wall_fan",
-    "minecraft:light"
-  ]
+    "minecraft:light",
+    "minecraft:crimson_roots",
+    "minecraft:weeping_vines",
+    "minecraft:weeping_vines_plant",
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom",
+    "minecraft:warped_roots",
+    "minecraft:nether_sprouts",
+    "minecraft:twisting_vines",
+    "minecraft:twisting_vines_plant"
+
+    ]
 }
