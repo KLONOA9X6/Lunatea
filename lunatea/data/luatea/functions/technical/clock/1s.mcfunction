@@ -11,7 +11,8 @@ function luatea:tp_root/check
 # 流浪商人系列
 function luatea:wandering_trader/tick/nether
 function luatea:wandering_trader/tick/the_end
-
+#兽群领袖进度触发
+execute at @a if score @s tame_wolf matches 5.. run advancement grant @s only luatea:husbandry/leader_of_the_pack
 
 
 

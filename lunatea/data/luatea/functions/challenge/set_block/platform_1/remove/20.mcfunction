@@ -1,0 +1,1 @@
+execute in minecraft:world_challenge run setblock 135 -22 103 minecraft:air

@@ -1,0 +1,1 @@
+execute in minecraft:world_challenge positioned 108 -27 144 if entity @a[distance=..1] run function luatea:challenge/set_block/platform_3/place/1

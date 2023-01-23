@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 6
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Fireworks:{Flight:-1,Explosions:[{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:1b,Flicker:true,Trail:1},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:1b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:0b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:2b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:3b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:4b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:1b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:0b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:2b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:3b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:4b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:1b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:0b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:2b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:3b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:4b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:1b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:0b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:2b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:3b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:4b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:1b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:0b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:2b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:3b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:4b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:1b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:0b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:2b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:3b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:4b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:1b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:0b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:2b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:3b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:4b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:1b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:0b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:2b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:3b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:4b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:1b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:0b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:2b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:3b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:4b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:1b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:0b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:2b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:3b,Flicker:true,Trail:0},{Colors:[I;15435844,14602026,6719955,4312372,8073150,11743532,15790320],FadeColors:[I;15435844],Type:4b,Flicker:true,Trail:0}]},HideFlags:32,display:{Name:'{\"text\":\"违禁·烟花火箭\",\"italic\":\"false\",\"color\":\"dark_purple\"}',Lore:['{\"text\":\"\"}','{\"text\":\"警告：严禁使用！\",\"italic\":\"false\"}']}}"
+            }
+          ],
+          "name": "minecraft:firework_rocket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:102,display:{Name:'{\"text\":\"全视之眼\",\"italic\": false,\"color\":\"dark_purple\"}',Lore:['{\"text\":\"\"}','{\"text\":\"这个法杖时刻注视着周围\",\"italic\": false}']},HideFlags:5,luatea:2}"
+            }
+          ],
+          "name": "crossbow"
+        }
+      ]
+    }
+  ]
+}

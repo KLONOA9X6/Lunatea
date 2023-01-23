@@ -1,0 +1,10 @@
+{
+    "type": "blasting",
+    "group": "luatea:cook_to_blackdye",
+    "ingredient": [
+        {"item": "minecraft:diamond_block"}
+    ],
+    "result": "minecraft:coal_block",
+    "experience": 10,
+    "cookingtime": 1100
+}

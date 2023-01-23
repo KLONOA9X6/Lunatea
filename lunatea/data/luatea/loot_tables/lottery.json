@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 16,
+          "name": "luatea:white"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 8,
+          "name": "luatea:green"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "name": "luatea:blue"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "luatea:purpler"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "luatea:gold"
+        }
+      ]
+    }
+  ]
+}

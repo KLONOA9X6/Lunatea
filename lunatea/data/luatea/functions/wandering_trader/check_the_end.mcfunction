@@ -12,7 +12,7 @@ execute if predicate luatea:random/10 run data modify entity @s[type=wandering_t
 
 
 # 设定提示
-execute if predicate luatea:random/10 run data modify entity @s[type=wandering_trader,tag=!the_end_check] Offers.Recipes append value {priceMultiplier:0.08f,rewardExp:5b,maxUses:1,buy:{id:"minecraft:light",Count:1b,tag:{display:{Name:'{"text":"你知道吗？","color":"white","italic":"false"}'},Lore:['{"text":"末路之地似乎是个被遗忘的世界","italic":"false","color":"white"}','{"text":"我想也许是梦与噩梦的归宿之地","italic":"false","color":"white"}']}},sell:{id:"minecraft:air",Count:1b}}
+execute if predicate luatea:random/10 run data modify entity @s[type=wandering_trader,tag=!the_end_check] Offers.Recipes append value {priceMultiplier:0.08f,rewardExp:5b,maxUses:1,buy:{id:"minecraft:light",Count:1b,tag:{display:{Name:'{"text":"你知道吗？","color":"white","italic":"false"}',Lore:['{"text":"末路之地似乎是个被遗忘的世界","italic":"false","color":"white"}','{"text":"我想也许是梦与噩梦的归宿之地","italic":"false","color":"white"}']}}},sell:{id:"minecraft:air",Count:1b}}
 
 
 tag @s add the_end_check

@@ -1,0 +1,1 @@
+execute in minecraft:world_challenge run setblock 108 -29 132 minecraft:barrier

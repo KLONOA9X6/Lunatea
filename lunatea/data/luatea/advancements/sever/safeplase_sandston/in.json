@@ -80,11 +80,64 @@
             }
           }
         }}]}
+      },"boynextdoor": {
+        "trigger": "minecraft:location",
+        "conditions": {
+        "player":[{"condition":"minecraft:inverted",
+        "term":{
+            "condition": "minecraft:entity_scores",
+            "entity":"this",
+            "scores":{
+                "luatea_safeplacemusic_play_test":1
+            }
+        }}
+            ,
+            {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "position": {
+                "x":{
+                    "max":-1066,"min":-1230
+                },
+                "y":{"min":46,"max":150},
+                "z":{"max":1448,"min":1239}
+            }
+          }
+        }}]}
+      },
+      "youngyun": {
+        "trigger": "minecraft:location",
+        "conditions": {
+        "player":[{"condition":"minecraft:inverted",
+        "term":{
+            "condition": "minecraft:entity_scores",
+            "entity":"this",
+            "scores":{
+                "luatea_safeplacemusic_play_test":1
+            }
+        }}
+            ,
+            {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "position": {
+                "x":{
+                    "max":-1260,"min":-1300
+                },
+                "y":{"min":70,"max":77},
+                "z":{"max":-3008,"min":-3037}
+            }
+          }
+        }}]}
       }
     },
     "requirements": [
       [
-        "sandstone","biao707","404"
+        "sandstone","biao707","404","boynextdoor","youngyun"
       ]
     ],
     "rewards": {"function": "luatea:server/safeplace_play_music/play"}

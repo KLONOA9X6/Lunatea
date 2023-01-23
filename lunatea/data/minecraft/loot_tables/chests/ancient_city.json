@@ -398,12 +398,17 @@
           ],
           "name": "minecraft:coal",
           "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "luatea:emblem_of_the_star"
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 10.0,
-        "min": 5.0
+        "max": 11.0,
+        "min": 6.0
       }
     }
   ]

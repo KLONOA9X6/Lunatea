@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Nvidia的晶圆切割刀\",\"color\":\"green\",\"italic\":\"false\"}',Lore:['{\"text\":\"精准采集 III(已失效)\",\"italic\":\"false\",\"color\":\"gray\"}','{\"text\":\"\"}','{\"text\":\"专业刀工，认准Nvidia\",\"italic\":\"false\"}','{\"text\":\"“So NVIDIA , F**K You!”\",\"italic\":\"true\",\"color\":\"red\"}']},Enchantments:[{id:\"sharpness\",lvl:4}]}"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"华强的西瓜刀\",\"color\":\"green\",\"italic\":\"false\"}',Lore:['{\"text\":\"\"}','{\"text\":\"你故意找茬是吧？你要不要吧！\",\"italic\":\"false\"}']},Enchantments:[{id:\"efficiency\",lvl:3}]}"
+            }
+          ],
+          "name": "minecraft:iron_sword"
+        }
+      ]
+    }
+  ]
+}

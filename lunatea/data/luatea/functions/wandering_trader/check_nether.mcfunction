@@ -7,6 +7,8 @@ execute if predicate luatea:random/20 run data modify entity @s[type=wandering_t
 execute if predicate luatea:random/20 run data modify entity @s[type=wandering_trader,tag=!nether_check] Offers.Recipes append value {priceMultiplier:0.08f,rewardExp:5b,maxUses:12,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:warped_fungus",Count:1b}}
 execute if predicate luatea:random/20 run data modify entity @s[type=wandering_trader,tag=!nether_check] Offers.Recipes append value {priceMultiplier:0.08f,rewardExp:5b,maxUses:1,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:warped_fungus_on_a_stick",tag:{display:{Lore:['{"text":"某个生物似乎很喜欢上面的东西","italic":"false"}']}},Count:1b}}
 execute if predicate luatea:random/20 run data modify entity @s[type=wandering_trader,tag=!nether_check] Offers.Recipes append value {priceMultiplier:0.08f,rewardExp:5b,maxUses:2,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:potion",tag:{Potion:"minecraft:long_fire_resistance"},Count:1b}}
+#梗
+execute if predicate luatea:random/20 run data modify entity @s[type=wandering_trader,tag=!citymapcheck] Offers.Recipes append value {priceMultiplier:0.08f,rewardExp:5b,maxUses:1,buy:{id:"minecraft:emerald",Count:4b},sell:{id:"minecraft:blaze_rod",Count:1b,tag:{display:{Name:'{"text":"大火杆","italic": false}'}}}}
+execute if predicate luatea:random/20 run data modify entity @s[type=wandering_trader,tag=!citymapcheck] Offers.Recipes append value {priceMultiplier:0.08f,rewardExp:5b,maxUses:1,buy:{id:"minecraft:emerald",Count:4b},sell:{id:"minecraft:ghast_tear",Count:1b,tag:{display:{Name:'{"text":"黑沉沉泪","italic": false}'}}}}
 
 tag @s add nether_check
-

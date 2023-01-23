@@ -20,7 +20,7 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:mooshroom","nbt":"{EffectId:12b}"
+            "type": "minecraft:mooshroom","nbt":"{EffectId:12}"
           }
         }
       },
@@ -28,7 +28,7 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:mooshroom","nbt":"{EffectId:15b}"
+            "type": "minecraft:mooshroom","nbt":"{EffectId:15}"
           }
         }
       },
@@ -36,7 +36,7 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:mooshroom","nbt":"{EffectId:23b}"
+            "type": "minecraft:mooshroom","nbt":"{EffectId:23}"
           }
         }
       },
@@ -44,7 +44,7 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:mooshroom","nbt":"{EffectId:8b}"
+            "type": "minecraft:mooshroom","nbt":"{EffectId:8}"
           }
         }
       },
@@ -52,7 +52,7 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:mooshroom","nbt":"{EffectId:19b}"
+            "type": "minecraft:mooshroom","nbt":"{EffectId:19}"
           }
         }
       },
@@ -60,7 +60,7 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:mooshroom","nbt":"{EffectId:10b}"
+            "type": "minecraft:mooshroom","nbt":"{EffectId:10}"
           }
         }
       },
@@ -68,7 +68,7 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:mooshroom","nbt":"{EffectId:16b}"
+            "type": "minecraft:mooshroom","nbt":"{EffectId:16}"
           }
         }
       },
@@ -76,7 +76,7 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:mooshroom","nbt":"{EffectId:18b}"
+            "type": "minecraft:mooshroom","nbt":"{EffectId:18}"
           }
         }
       },
@@ -84,7 +84,7 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "minecraft:mooshroom","nbt":"{EffectId:20b}"
+            "type": "minecraft:mooshroom","nbt":"{EffectId:20}"
           }
         }
       }

@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,display:{Name:'{\"text\":\"同福碗粥\",\"italic\":false,\"color\":\"white\"}',Lore:['{\"text\":\"\"}','{\"text\":\"同福一碗粥，人间有真情\",\"italic\":false}']},Effects:[{EffectId:27,EffectDuration:168000}]}"
+            }
+          ],
+          "name": "minecraft:suspicious_stew"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:1131796,Name:'{\"text\":\"昏睡红茶(致死量)\",\"italic\":false,\"color\":\"white\"}',Lore:['{\"text\":\"\"}','{\"text\":\"哼，哼，哼，啊啊呃啊啊，啊啊啊啊\",\"italic\":false}']},CustomPotionEffects:[{Id:9,Duration:500,Amplifier:1,ShowParticles:0,ShowIcon:false},{Id:15,Duration:360,ShowParticles:0,ShowIcon:false},{Id:19,Amplifier:2,Duration:500,ShowParticles:0,ShowIcon:false},{Id:20,Duration:360,ShowParticles:0,ShowIcon:false}],CustomPotionColor:1131796,HideFlags:32}"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,display:{Name:'{\"text\":\"口罩\",\"color\":\"white\",\"italic\":\"false\"}',Lore:['{\"text\":\"防护 II\",\"italic\":\"false\",\"color\":\"gray\"}','{\"text\":\"\"}','{\"text\":\"时代印记\",\"italic\":\"false\"}']}}"
+            }
+          ],
+          "name": "minecraft:paper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,display:{Name:'{\"text\":\"服务器\",\"color\":\"white\",\"italic\":\"false\"}',Lore:['{\"text\":\"性能 -III\",\"italic\":\"false\",\"color\":\"red\"}','{\"text\":\"\"}','{\"text\":\"这台服务器的主要成分是土豆\",\"italic\":\"false\"}','{\"text\":\"Bought From Ubisoft\",\"italic\":\"false\"}']}}"
+            }
+          ],
+          "name": "minecraft:poisonous_potato"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"全球三亿多设备都在使用Java\",\"italic\":\"false\"}'],Name:'{\"text\":\"爪洼咖啡\",\"italic\":\"false\",\"color\":\"white\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Java.exe已停止响应\",\"color\":\"red\"}}}'},CustomModelData:1}"
+            }
+          ],
+          "name": "minecraft:honey_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"阿妹你看 上帝压狗\",\"italic\":\"false\"}'],Name:'{\"text\":\"金坷垃\",\"italic\":\"false\",\"color\":\"white\"}'},CustomModelData:1}"
+            }
+          ],
+          "name": "minecraft:bone_meal"
+        }
+      ]
+    }
+  ]
+}

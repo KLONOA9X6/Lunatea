@@ -1,0 +1,2 @@
+execute in minecraft:world_challenge if entity @a[x=6,y=-29,z=68,dx=18,dy=7,dz=18] run function luatea:challenge/battle/battle_start
+execute in minecraft:world_challenge unless entity @a[x=6,y=-29,z=68,dx=18,dy=7,dz=18] run schedule function luatea:challenge/battle/test_player_1 10t

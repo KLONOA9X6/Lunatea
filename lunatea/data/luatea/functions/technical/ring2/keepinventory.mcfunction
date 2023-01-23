@@ -1,12 +1,11 @@
 tellraw @s [{"text": "卧焯？","color": "gray"}]
 
-execute if entity @s[predicate=luatea:technical/ring/mainhand] run item replace entity @s weapon.mainhand with air
-execute if entity @s[predicate=luatea:technical/ring/offhand] run item replace entity @s weapon.offhand with air
+execute anchored eyes at @s run summon minecraft:firework_rocket ^ ^1 ^1 {Silent:1b,Motion:[0.0,0.0,0.0],ShotAtAngle:1,LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks: {Flight: 1b, Explosions: [{Type: 0b, Colors: [I; 15540759, 16116257, 14889428], FadeColors: [I; 13991898]}, {Type: 0b, Colors: [I; 15540759, 16116257, 14889428], FadeColors: [I; 13991898]}, {Type: 0b, Colors: [I; 15540759, 16116257, 14889428], FadeColors: [I; 13991898]}, {Type: 0b, Colors: [I; 15540759, 16116257, 14889428], FadeColors: [I; 13991898]}, {Type: 0b, Colors: [I; 15540759, 16116257, 14889428], FadeColors: [I; 13991898]}, {Type: 0b, Colors: [I; 15540759, 16116257, 14889428], FadeColors: [I; 13991898]}, {Type: 0b, Colors: [I; 15540759, 16116257, 14889428], FadeColors: [I; 13991898]}]}},Tags:['in.ring_firework']}}
 
 
 execute at @s run playsound minecraft:entity.item.break master @s ~ ~ ~ 1 0.5
 execute at @s run playsound minecraft:entity.item.break master @s ~ ~ ~ 1 1.1
 xp add @s -10 levels
-advancement revoke @a only luatea:sever/technical/inventorykeep/ring
+advancement revoke @a only luatea:sever/technical/inventorykeep/ring2
 execute if score @s level matches ..9 run effect give @s hunger 10 255 false
 execute if score @s level matches ..9 run effect give @s minecraft:instant_damage 1 2

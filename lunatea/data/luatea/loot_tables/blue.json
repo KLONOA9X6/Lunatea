@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:0,Name:'{\"text\":\"Van的皮革紧身裤\",\"color\":\"blue\",\"italic\":\"false\"}',Lore:['{\"text\":\"\"}','{\"text\":\"背后的艰辛鲜为人知\",\"italic\":\"false\"}']},CustomModelData:1,AttributeModifiers: [{Amount: 4, Slot: \"legs\", AttributeName: \"generic.armor_toughness\", UUID: [I; 1, 1, 1, 1]},{AttributeName:\"generic.armor\",Slot:\"legs\",Amount:1,UUID:[I;1,1,1,2]}]}"
+            }
+          ],
+          "name": "minecraft:leather_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"比利·海明顿的光明装甲\",\"color\":\"blue\",\"italic\":\"false\"}',Lore:['{\"text\":\"力量 V\",\"italic\":\"false\",\"color\":\"gray\"}','{\"text\":\"\"}','{\"text\":\"比利·海明顿生前的遗物\",\"italic\":\"false\"}']},CustomModelData:1,AttributeModifiers: [{Amount: 4, Slot: \"chest\", AttributeName: \"generic.armor_toughness\", UUID: [I; 1, 1, 1, 1]},{AttributeName:\"generic.armor\",Slot:\"chest\",Amount:2,UUID:[I;1,1,1,2]}],Enchantments:[{id:0,lvl:0}]}"
+            }
+          ],
+          "name": "minecraft:chainmail_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:14378325,Name:'{\"text\":\"香蕉君的布兜帽\",\"color\":\"blue\",\"italic\":\"false\"}',Lore:['{\"text\":\"自由 III(已失效)\",\"italic\":\"false\",\"color\":\"gray\"}','{\"text\":\"\"}','{\"text\":\"那个男人，不会回来了…\",\"italic\":\"false\"}']},CustomModelData:1,AttributeModifiers: [{Amount: 4, Slot: \"head\", AttributeName: \"generic.armor_toughness\", UUID: [I; 1, 1, 1, 1]},{AttributeName:\"generic.armor\",Slot:\"head\",Amount:0,UUID:[I;1,1,1,2]}]}"
+            }
+          ],
+          "name": "minecraft:leather_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"鬼步金靴\",\"color\":\"blue\",\"italic\":\"false\"}',Lore:['{\"text\":\"木吉鬼步 V\",\"italic\":\"false\",\"color\":\"gray\"}','{\"text\":\"\"}','{\"text\":\"这双金靴子曾经是木吉的力量来源\",\"italic\":\"false\"}']},CustomModelData:1,AttributeModifiers: [{Amount: 4, Slot: \"feet\", AttributeName: \"generic.armor_toughness\", UUID: [I; 1, 1, 1, 1]},{AttributeName:\"generic.armor\",Slot:\"feet\",Amount:2,UUID:[I;1,1,1,2]}],Enchantments:[{id:\"soul_speed\",lvl:10}],RepairCost:38,HideFlags:1,Damage:45}"
+            }
+          ],
+          "name": "minecraft:golden_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Slot:\"mainhand\",UUID:[I;1,1,1,1],Operation:1,Amount:-0.7},{AttributeName:\"generic.attack_damage\",UUID:[I;1,1,1,2],Slot:\"mainhand\",Amount:5}],Enchantments:[{id:\"minecraft:sweeping\",lvl:9}],RepairCost:7,HideFlags:3,display:{Name:'{\"text\":\"黑暗剑 +22\",\"italic\":\"false\",\"color\":\"blue\"}',Lore:['{\"text\":\"\"}','{\"text\":\"秦先生的黑暗剑\",\"italic\":\"false\"}']},CustomModelData:1}"
+            }
+          ],
+          "name": "minecraft:iron_sword"
+        }
+      ]
+    }
+  ]
+}
