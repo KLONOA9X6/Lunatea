@@ -20,6 +20,6 @@
     },
     "parent": "luatea:sever/disc/root",
     "rewards": {
-        "function": "luatea:server/music/disc/staffroll"
+        "function": "luatea:server/music/disc/alpha"
     }
 }

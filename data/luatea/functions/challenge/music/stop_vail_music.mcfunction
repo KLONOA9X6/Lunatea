@@ -1,0 +1,9 @@
+execute in minecraft:world_challenge as @a[dx=0,dy=0,dz=0,distance=..1000] run stopsound @s * minecraft:music.game
+execute in minecraft:world_challenge as @a[dx=0,dy=0,dz=0,distance=..1000] run stopsound @s * minecraft:music.overworld.dripstone_caves
+execute in minecraft:world_challenge as @a[dx=0,dy=0,dz=0,distance=..1000] run stopsound @s * minecraft:music.overworld.frozen_peaks
+execute in minecraft:world_challenge as @a[dx=0,dy=0,dz=0,distance=..1000] run stopsound @s * minecraft:music.overworld.grove
+execute in minecraft:world_challenge as @a[dx=0,dy=0,dz=0,distance=..1000] run stopsound @s * minecraft:music.overworld.jagged_peaks
+execute in minecraft:world_challenge as @a[dx=0,dy=0,dz=0,distance=..1000] run stopsound @s * minecraft:music.overworld.lush_caves
+execute in minecraft:world_challenge as @a[dx=0,dy=0,dz=0,distance=..1000] run stopsound @s * minecraft:music.overworld.meadow
+execute in minecraft:world_challenge as @a[dx=0,dy=0,dz=0,distance=..1000] run stopsound @s * minecraft:music.overworld.snowy_slopes
+execute in minecraft:world_challenge as @a[dx=0,dy=0,dz=0,distance=..1000] run stopsound @s * minecraft:music.overworld.stony_peaks

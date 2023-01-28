@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "used_totem": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        },
+        "player":{"dimension":"minecraft:overworld_challenge"}
+      },
+      "trigger": "minecraft:used_totem"
+    }
+  },
+  "rewards":{
+    "function":"luatea:challenge/advancement_used_totem"
+  },
+  "requirements": [
+    [
+      "used_totem"
+    ]
+  ]
+}
