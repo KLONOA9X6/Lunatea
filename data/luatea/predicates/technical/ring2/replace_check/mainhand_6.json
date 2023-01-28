@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{luatearing2:1}",
+          "nbt": "{luatearing2:1b}",
           "enchantments": [
             {"enchantment": "unbreaking","levels":{"max":3,"min": 1}}
           ]

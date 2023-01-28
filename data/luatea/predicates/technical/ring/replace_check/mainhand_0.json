@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{luatea:1,RepairCost:0}"
+          "nbt": "{luatea:1b,RepairCost:0}"
         }
       }
     }

@@ -13,7 +13,7 @@
                     "items": [
                         "minecraft:music_disc_strad"
                     ],
-                    "nbt":"{luateadisc:1}"
+                    "nbt":"{luateadisc:1b}"
                 }
             }
         }

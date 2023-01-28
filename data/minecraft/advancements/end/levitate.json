@@ -8,7 +8,7 @@
       "translate": "漂浮大师"
     },
     "description": {
-      "translate": "在漂浮状态下一次向上移动50米，方法不限……"
+      "translate": "在漂浮状态下一次向上移动50米"
     },
     "frame": "challenge",
     "show_toast": true,

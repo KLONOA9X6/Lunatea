@@ -31,7 +31,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:102,display:{Name:'{\"text\":\"全视之眼\",\"italic\": false,\"color\":\"dark_purple\"}',Lore:['{\"text\":\"\"}','{\"text\":\"这个法杖时刻注视着周围\",\"italic\": false}']},HideFlags:5,luatea:2}"
+              "tag": "{CustomModelData:102,display:{Name:'{\"text\":\"全视之眼\",\"italic\": false,\"color\":\"dark_purple\"}',Lore:['{\"text\":\"\"}','{\"text\":\"这个法杖时刻注视着周围\",\"italic\": false}']},HideFlags:5,luatea:2b}"
             }
           ],
           "name": "crossbow"

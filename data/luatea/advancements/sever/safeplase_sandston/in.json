@@ -137,7 +137,7 @@
     },
     "requirements": [
       [
-        "sandstone","biao707","404","boynextdoor","youngyun"
+        ""
       ]
     ],
     "rewards": {"function": "luatea:server/safeplace_play_music/play"}

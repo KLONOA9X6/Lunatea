@@ -10,7 +10,7 @@
         "conditions": {
             "items": [
                 {
-                    "nbt": "{luatearing2:1,RepairCost:0}"
+                    "nbt": "{luatearing2:1b,RepairCost:0}"
                 }
             ]
         }
@@ -23,7 +23,7 @@
                   "enchantments":[
                     {"enchantment": "quick_charge","levels":{"max":3,"min": 1}}
                   ],
-                  "nbt": "{luatearing2:1}"
+                  "nbt": "{luatearing2:1b}"
                 }
             ]
         }
@@ -36,7 +36,7 @@
                   "enchantments":[
                     {"enchantment": "multishot","levels":{"max":3,"min": 1}}
                   ],
-                  "nbt": "{luatearing2:1}"
+                  "nbt": "{luatearing2:1b}"
                 }
             ]
         }
@@ -49,7 +49,7 @@
                   "enchantments":[
                     {"enchantment": "piercing","levels":{"max":5,"min": 1}}
                   ],
-                  "nbt": "{luatearing2:1}"
+                  "nbt": "{luatearing2:1b}"
                 }
             ]
         }
@@ -62,7 +62,7 @@
                   "enchantments":[
                     {"enchantment": "vanishing_curse","levels":{"max":3,"min": 1}}
                   ],
-                  "nbt": "{luatearing2:1}"
+                  "nbt": "{luatearing2:1b}"
                 }
             ]
         }
@@ -75,7 +75,7 @@
                   "enchantments":[
                     {"enchantment": "mending","levels":{"max":3,"min": 1}}
                   ],
-                  "nbt": "{luatearing2:1}"
+                  "nbt": "{luatearing2:1b}"
                 }
             ]
         }
@@ -88,7 +88,7 @@
                   "enchantments":[
                     {"enchantment": "unbreaking","levels":{"max":3,"min": 1}}
                   ],
-                  "nbt": "{luatearing2:1}"
+                  "nbt": "{luatearing2:1b}"
                 }
             ]
         }

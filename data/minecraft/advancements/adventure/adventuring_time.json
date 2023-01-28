@@ -840,7 +840,7 @@
       "nbt": "{Damage:0}"
     },
     "title": "梦之旅行者",
-        "description": "发现所有的生物群系，然后重新思考你的Minecraft人生……",
+        "description": "发现所有的原版生物群系，然后重新思考你的Minecraft人生……",
         "frame": "challenge",
         "announce_to_chat": true,
         "show_toast": true,
@@ -881,7 +881,10 @@
       "minecraft:stony_shore"
     ],
     [
-      "minecraft:mangrove_swamp","minecraft:swamp"
+      "minecraft:mangrove_swamp"
+    ],
+    [
+      "minecraft:swamp"
     ],
     [
       "minecraft:snowy_slopes"

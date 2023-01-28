@@ -4,10 +4,10 @@
       "item": "minecraft:end_stone"
     },
     "title": {
-      "translate": "失落的维度"
+      "translate": "末路之地"
     },
     "description": {
-      "translate": "存在于神话中的维度"
+      "translate": "似曾相识"
     },
     "frame": "task",
     "show_toast": false,

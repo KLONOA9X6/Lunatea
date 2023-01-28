@@ -9,7 +9,7 @@
             "trigger": "minecraft:shot_crossbow",
             "conditions": {
               "item":{
-                "nbt":"{luatea:1}"
+                "nbt":"{luatea:1b}"
               }
             }
           },"log_spam_fixer": {

@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "impossible": {
+        "trigger": "tick",
+        "conditions": {
+        }
+      }
+    },
+    "rewards": {
+      "function": "luatea:server/story/first_join"
+    },
+    "requirements": [
+      [
+        "impossible"
+      ]
+    ]
+  }

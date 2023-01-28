@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "offhand": {
-          "nbt": "{luatea:1}"
+          "nbt": "{luatea:1b}"
         }
       }
     }

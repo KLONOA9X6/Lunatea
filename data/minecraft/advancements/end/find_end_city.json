@@ -8,7 +8,7 @@
       "translate": "advancements.end.find_end_city.title"
     },
     "description": {
-      "translate": "是谁建造了它？"
+      "translate": "这是佛塔吗？"
     },
     "frame": "task",
     "show_toast": true,

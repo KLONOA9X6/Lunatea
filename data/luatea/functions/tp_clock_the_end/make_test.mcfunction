@@ -1,1 +1,1 @@
-execute in the_end as @e[type=minecraft:item,nbt={Item:{id:"minecraft:warped_fungus_on_a_stick",tag:{luatea_can_tp:1}}}] at @s if block ~ ~-1 ~ minecraft:crying_obsidian run function luatea:tp_clock_the_end/make_success
+execute in the_end as @e[type=minecraft:item,nbt={Item:{id:"minecraft:warped_fungus_on_a_stick",tag:{luatea_can_tp:1b}}}] at @s if block ~ ~-1 ~ minecraft:crying_obsidian run function luatea:tp_clock_the_end/make_success

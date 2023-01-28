@@ -1,1 +1,0 @@
-execute unless data storage minecraft:weather {weather:clear} run data modify storage minecraft:weather weather set value thunder

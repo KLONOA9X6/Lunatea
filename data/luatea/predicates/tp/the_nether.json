@@ -7,7 +7,7 @@
         },
         "equipment": {
             "offhand": {
-                "nbt":"{luatea_tp_the_nether:1}"
+                "nbt":"{luatea_tp_the_nether:1b}"
             }
         }
     }

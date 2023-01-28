@@ -1,1 +1,0 @@
-execute in minecraft:the_end if block 500 67 0 minecraft:respawn_anchor[charges=4] run function luatea:server/end_trigger
