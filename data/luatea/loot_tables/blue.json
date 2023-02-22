@@ -59,6 +59,28 @@
             }
           ],
           "name": "minecraft:iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{luatea:12b,CustomModelData:2,display:{Name:'{\"text\":\"测距望远镜\",\"italic\": false,\"color\":\"blue\"}',Lore:['{\"text\":\"\"}','{\"text\":\"经过改造可以使用灵魂激活测距功能\",\"italic\": false}','{\"text\":\"从沙石镇工具匠那里改造“三眼”望远镜搞来的\",\"color\":\"gray\"}']}}"
+            }
+          ],
+          "name": "minecraft:spyglass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:38,display:{Name:'{\"text\":\"马库斯的重弩\",\"italic\": false,\"color\":\"blue\"}',Lore:['{\"text\":\"\"}','{\"text\":\"Magic suck. Use machine\",\"italic\": false}','{\"text\":\"从沙石镇流商驿站那儿搞来的\",\"color\":\"gray\"}']},HideFlags:5,Enchantments:[{id:\"minecraft:piercing\",lvl:5}],luatea:3b}"
+            }
+          ],
+          "name": "minecraft:crossbow"
         }
       ]
     }

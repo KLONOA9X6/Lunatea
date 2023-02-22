@@ -7,8 +7,30 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 1,
+          "weight": 2,
           "name": "luatea:emblem_of_the_star"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:103,display:{Name:'{\"text\":\"反向指环\",\"italic\": false,\"color\":\"dark_purple\"}',Lore:['{\"text\":\"\"}','{\"text\":\"据说是风之指环的复制品，名字是随便取的\",\"italic\": false}','{\"text\":\"技术限制被搞成了红色，使用消耗略大\",\"italic\": false}']},HideFlags:5, Unbreakable:1,Enchantments:[{id:\"quick_charge\",lvl:4}],luatearing2:1b}"
+            }
+          ],
+          "name": "minecraft:crossbow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:100,RepairCost:40,Unbreakable:true,HideFlags:4,display:{Name:'{\"text\":\"一个奇怪的设备\",\"italic\": false,\"color\":\"blue\"}',Lore:['{\"text\":\"\"}','{\"text\":\"看起来这玩意需要供给什么东西\",\"italic\": false}']}}"
+            }
+          ],
+          "name": "minecraft:warped_fungus_on_a_stick"
         }
       ]
     }

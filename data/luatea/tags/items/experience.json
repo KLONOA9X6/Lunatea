@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:experience_bottle",
+        "create:experience_nugget"
+    ]
+}

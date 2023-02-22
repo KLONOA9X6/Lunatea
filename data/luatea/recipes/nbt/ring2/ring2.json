@@ -1,0 +1,43 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": false,
+    "key": {
+        "A": {
+            "item": "minecraft:gold_ingot"
+        },
+        "P": {
+            "item": "create:polished_rose_quartz"
+        },
+        "E": {
+            "tag": "luatea:experience"
+        }
+    },
+    "pattern": [
+        " AAA ",
+        "EAPAE",
+        " AAA "
+    ],
+    "result": {
+        "count": 1,
+        "item": "minecraft:crossbow",
+        "data": {
+            "CustomModelData": 103,
+            "display": {
+                "Name": "{\"text\":\"反向指环\",\"italic\": false,\"color\":\"dark_purple\"}",
+                "Lore": [
+                    "{\"text\":\"\"}','{\"text\":\"据说这是风之指环的复制品，名字是随便取的\",\"italic\": false}",
+                    "{\"text\":\"技术限制被搞成了红色，使用消耗略大\",\"italic\": false}"
+                ]
+            },
+            "HideFlags": 5,
+            "Unbreakable": 1,
+            "Enchantments": [
+                {
+                    "id": "quick_charge",
+                    "lvl": 4
+                }
+            ],
+            "luatearing2": 1
+        }
+    }
+}

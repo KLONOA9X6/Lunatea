@@ -26,6 +26,17 @@
             }
           ],
           "name": "minecraft:iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:5}],RepairCost:7,HideFlags:2,display:{Name:'{\"text\":\"火焰之斧\",\"italic\":\"false\",\"color\":\"green\"}',Lore:['{\"text\":\"\"}','{\"text\":\"据说灵感来自于一些人的记忆中\",\"italic\":\"false\"}','{\"text\":\"从沙石镇流商驿站里搞来的\",\"color\":\"gray\"}']}}"
+            }
+          ],
+          "name": "minecraft:wooden_axe"
         }
       ]
     }

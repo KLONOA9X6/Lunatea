@@ -1,5 +1,5 @@
 advancement revoke @a only luatea:sever/safeplase_sandston/in
-
+function luatea:record/a
 
 
 

@@ -1,0 +1,1 @@
+execute as @r[predicate=luatea:locate/the_end] at @s run playsound luatea:record voice @s ~ ~ ~ 0.01

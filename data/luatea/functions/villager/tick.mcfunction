@@ -1,0 +1,1 @@
+execute as @e[type=villager,tag=!luatea_villager] run function luatea:villager/idea_check
