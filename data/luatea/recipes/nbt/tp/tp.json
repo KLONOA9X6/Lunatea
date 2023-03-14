@@ -6,14 +6,14 @@
     " B "
   ],
   "key": {
-      "A": {
-          "item": "minecraft:warped_fungus_on_a_stick",
-          "data": {
-              "require": {
-                  "CustomModelData": 100
-              }
-          }
-      },
+    "A": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "data": {
+        "require": {
+          "CustomModelData": 100
+        }
+      }
+    },
     "B": {
       "item": "minecraft:experience_bottle"
     }
@@ -21,18 +21,19 @@
   "result": {
     "item": "minecraft:warped_fungus_on_a_stick",
     "data": {
-      "luatea_can_tp":1,
-      "CustomModelData":101,
-      "Unbreakable":true,
-      "HideFlags":4,
-      "RepairCost":40,
-      "display":{
-          "Name":"{\"text\":\"一个奇怪的机器\",\"italic\":false,\"color\":\"blue\"}",
-          "Lore":[
-              "{\"text\":\"\"}","{\"text\":\"这玩意好像充能完毕了\",\"italic\":false}",
-              "{\"text\":\"“相位折跃模块 V0.8.6，等待设置坐标”\",\"italic\":false,\"color\":\"white\"}"
-              ]
-              }
-          }
+      "luatea_can_tp": 1,
+      "CustomModelData": 101,
+      "Unbreakable": true,
+      "HideFlags": 4,
+      "RepairCost": 40,
+      "display": {
+        "Name": "{\"text\":\"一个奇怪的机器\",\"italic\":false,\"color\":\"blue\"}",
+        "Lore": [
+          "{\"text\":\"\"}",
+          "{\"text\":\"这玩意好像充能完毕了\",\"italic\":false}",
+          "{\"text\":\"“相位折跃模块 V0.8.6，等待设置坐标”\",\"italic\":false,\"color\":\"white\"}"
+        ]
       }
+    }
   }
+}

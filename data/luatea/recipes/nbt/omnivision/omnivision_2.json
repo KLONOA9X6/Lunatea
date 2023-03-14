@@ -1,35 +1,35 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "group": "luatea:make_omnivision",
-    "pattern": [
-      " CB",
-      " BC",
-      "A  "
-    ],
-    "key": {
-      "A": {
-        "item": "minecraft:stick"
-      },
-      "B": {
-        "item": "minecraft:ender_eye"
-      },
-      "C": {
-        "item": "minecraft:nether_star"
-      }
+  "type": "minecraft:crafting_shaped",
+  "group": "luatea:make_omnivision",
+  "pattern": [
+    " CB",
+    " BC",
+    "A  "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
     },
-    "result": {
-      "item": "minecraft:crossbow",
-      "data": {
-        "CustomModelData":102,
-        "display":{
-            "Name":"{\"text\":\"全视之眼\",\"italic\": false,\"color\":\"dark_purple\"}",
-            "Lore":[
-                "{\"text\":\"\"}",
-                "{\"text\":\"这个法杖时刻注视着周围\",\"italic\": false}"
-                ]
-            },
-        "HideFlags":5,
-        "luatea":2
-        }
+    "B": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "minecraft:nether_star"
     }
+  },
+  "result": {
+    "item": "minecraft:crossbow",
+    "data": {
+      "CustomModelData": 102,
+      "display": {
+        "Name": "{\"text\":\"全视之眼\",\"italic\": false,\"color\":\"dark_purple\"}",
+        "Lore": [
+          "{\"text\":\"\"}",
+          "{\"text\":\"这个法杖时刻注视着周围\",\"italic\": false}"
+        ]
+      },
+      "HideFlags": 5,
+      "luatea": 2
+    }
+  }
 }
